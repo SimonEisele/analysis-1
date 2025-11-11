@@ -1,0 +1,24 @@
+\begin{table}[H]
+\caption{Testprotokoll Binär zu BCD Umwandler}\label{tab:test_protocol_bin_to_bcd}
+\centering
+\colorlet{BFH-table}{BFH-MediumGreen!10}
+\colorlet{BFH-tablehead}{BFH-MediumGreen!50}
+\setupBfhTabular
+\resizebox{\textwidth}{!}{
+\begin{bfhTabular}{cc|c|c|c}
+\multicolumn{2}{c}{Input}                                                               & Erwarteter Wert       & Resultat Simulation   & Resultat Leguan-Board \\\hline
+Digitalwert & Binärwert                                                                 &                       &                       &                       \\\hline
+\num{0}     & \num[minimum-integer-digits=4]{0000} \num[minimum-integer-digits=4]{0000} & \num{0}               & \num{0}               & \num{0}               \\\hline
+\num{1}     & \num[minimum-integer-digits=4]{0000} \num[minimum-integer-digits=4]{0001} & \num{1}               & \num{1}               & \num{1}               \\\hline
+\num{9}     & \num[minimum-integer-digits=4]{0000} \num[minimum-integer-digits=4]{1001} & \num{9}               & \num{9}               & \num{9}               \\\hline
+\num{10}    & \num[minimum-integer-digits=4]{0000} \num[minimum-integer-digits=4]{1010} & \num{10}              & \num{10}              & \num{10}              \\\hline
+\num{98}    & \num[minimum-integer-digits=4]{0110} \num[minimum-integer-digits=4]{0010} & \num{98}              & \num{98}              & \num{98}              \\\hline
+\num{99}    & \num[minimum-integer-digits=4]{0110} \num[minimum-integer-digits=4]{0011} & \num{99}              & \num{99}              & \num{99}              \\\hline
+\num{100}   & \num[minimum-integer-digits=4]{0110} \num[minimum-integer-digits=4]{0100} & \num{100}             & \num{100}             & \num{100}             \\\hline
+\num{199}   & \num[minimum-integer-digits=4]{1100} \num[minimum-integer-digits=4]{0111} & \num{199}             & \num{199}             & \num{199}             \\\hline
+\num{200}   & \num[minimum-integer-digits=4]{1100} \num[minimum-integer-digits=4]{1000} & \num{200}             & \num{200}             & \num{200}             \\\hline
+\num{255}   & \num[minimum-integer-digits=4]{1111} \num[minimum-integer-digits=4]{1111} & \num{255}             & \num{255}             & \num{255}             \\\hline
+\end{bfhTabular}
+}
+\footnotesize
+\end{table}

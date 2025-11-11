@@ -1,0 +1,72 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {section}{\numberline {1}Einleitung}{1}{section.1}%
+\contentsline {section}{\numberline {2}Methoden und Materialien}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Versuchs- und Projektaufbau}{2}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Ziele}{2}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Vorgehen}{2}{subsubsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.2}Projektorganisation}{3}{subsection.2.2}%
+\contentsline {paragraph}{\nonumberline Vorbereitungsaufgaben}{3}{paragraph*.4}%
+\contentsline {paragraph}{\nonumberline Aufgaben}{3}{paragraph*.6}%
+\contentsline {paragraph}{\nonumberline Sonstiges}{3}{paragraph*.8}%
+\contentsline {subsection}{\numberline {2.3}Verwendete Materialien, Werkzeuge und Software}{4}{subsection.2.3}%
+\contentsline {paragraph}{\nonumberline Entwerfen und Testen der Schaltungen}{4}{paragraph*.10}%
+\contentsline {paragraph}{\nonumberline Projektbericht}{4}{paragraph*.12}%
+\contentsline {subsection}{\numberline {2.4}Test- und Verifikationsverfahren}{4}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Spezifische Methoden pro Baugruppe}{4}{subsection.2.5}%
+\contentsline {subsubsection}{\numberline {2.5.1}BCD-zu-7-Segment Decoder}{4}{subsubsection.2.5.1}%
+\contentsline {paragraph}{\nonumberline 7-Segment-Anzeige}{4}{paragraph*.14}%
+\contentsline {paragraph}{\nonumberline Wahrheitstabelle}{5}{paragraph*.17}%
+\contentsline {paragraph}{\nonumberline KV-Diagramm}{5}{paragraph*.20}%
+\contentsline {paragraph}{\nonumberline Beschränkter Gattervorrat}{5}{paragraph*.22}%
+\contentsline {subsubsection}{\numberline {2.5.2}Ripple-Carry-Addierer}{5}{subsubsection.2.5.2}%
+\contentsline {paragraph}{\nonumberline Volladdierer}{6}{paragraph*.24}%
+\contentsline {paragraph}{\nonumberline Ripple-Carry-Addierer}{6}{paragraph*.26}%
+\contentsline {paragraph}{\nonumberline 8-Bit-Addierer}{6}{paragraph*.28}%
+\contentsline {subsubsection}{\numberline {2.5.3}Borrow-Bit-Subtrahierer}{6}{subsubsection.2.5.3}%
+\contentsline {paragraph}{\nonumberline Vollsubtrahierer}{6}{paragraph*.30}%
+\contentsline {paragraph}{\nonumberline 8-Bit-Subtrahierer}{6}{paragraph*.32}%
+\contentsline {subsubsection}{\numberline {2.5.4}Ergebnisumschalter}{7}{subsubsection.2.5.4}%
+\contentsline {subsubsection}{\numberline {2.5.5}Binär-zu-BCD Umwandler}{7}{subsubsection.2.5.5}%
+\contentsline {paragraph}{\nonumberline Add3}{7}{paragraph*.34}%
+\contentsline {section}{\numberline {3}Resultate}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}BCD-zu-7-Segment-Decoder}{8}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Wahrheitstabelle}{8}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}\gls {kv}-Diagramme}{8}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}Beschränkter Gattervorrat}{11}{subsubsection.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.4}Implementierung in Logisim-Evolution}{11}{subsubsection.3.1.4}%
+\contentsline {subsubsection}{\numberline {3.1.5}Test der Schaltungen}{13}{subsubsection.3.1.5}%
+\contentsline {subsection}{\numberline {3.2}Ripple-Carry-Addierer}{13}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Wahrheitstabelle}{13}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}\gls {kv}-Diagramme}{14}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Implementierung in Logisim-evolution}{14}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}8-Bit-Addierer}{15}{subsubsection.3.2.4}%
+\contentsline {subsubsection}{\numberline {3.2.5}Test der Schaltungen}{16}{subsubsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.3}Borrow-Bit-Subtrahierer}{17}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Wahrheitstabelle}{17}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}\gls {kv}-Diagramme}{17}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Implementierung in Logisim-evolution}{18}{subsubsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.4}8-Bit-Subtrahierer}{19}{subsubsection.3.3.4}%
+\contentsline {subsubsection}{\numberline {3.3.5}Test der Schaltungen}{20}{subsubsection.3.3.5}%
+\contentsline {subsection}{\numberline {3.4}Ergebnisumschalter}{21}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Wahrheitstabelle}{21}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}\gls {kv}-Diagramme}{21}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.3}Implementierung in Logisim-evolution}{21}{subsubsection.3.4.3}%
+\contentsline {subsubsection}{\numberline {3.4.4}8-Bit-multiplexer}{22}{subsubsection.3.4.4}%
+\contentsline {subsubsection}{\numberline {3.4.5}Test der Schaltungen}{23}{subsubsection.3.4.5}%
+\contentsline {subsection}{\numberline {3.5}Binär-zu-BCD-Konverter}{24}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Wahrheitstabelle}{24}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}\gls {kv}-Diagramme}{25}{subsubsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.3}Implementierung in Logisim-evolution}{26}{subsubsection.3.5.3}%
+\contentsline {subsubsection}{\numberline {3.5.4}Gesamtschaltung}{27}{subsubsection.3.5.4}%
+\contentsline {subsubsection}{\numberline {3.5.5}Test der Schaltungen}{28}{subsubsection.3.5.5}%
+\contentsline {section}{\numberline {4}Diskussion}{29}{section.4}%
+\contentsline {section}{Selbstständigkeitserklärung}{30}{section*.62}%
+\contentsline {section}{\nonumberline Literatur}{31}{section*.65}%
+\contentsline {section}{\nonumberline Abbildungsverzeichnis}{32}{section*.66}%
+\contentsline {section}{\nonumberline Tabellenverzeichnis}{33}{section*.67}%
+\contentsline {section}{Glossar}{34}{section*.68}%
+\contentsline {section}{Akronyme}{34}{section*.70}%
+\contentsline {section}{\numberline {A}Anhang}{35}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Logisim-Evolution Schaltpläne}{35}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}PDF}{35}{subsection.A.2}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

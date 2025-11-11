@@ -1,0 +1,14 @@
+\begin{table}[H]
+\caption{KV-Diagramme und Normalform der Ausgänge des Add3-Blocks}\label{tab:kv_add3}
+\centering
+\colorlet{BFH-table}{BFH-MediumRed!10}
+\colorlet{BFH-tablehead}{BFH-MediumRed!50}
+\setupBfhTabular
+\begin{bfhTabular}{lll}
+Output & KV-Diagramm & Normalform \\\hline
+Out\_0 LSB & \adjustbox{valign=t}{\includegraphics[width=0.3\textwidth]{bin_to_bcd/Out_0.png}} & $Out_0=(In_0\cdot\overline{In_2}\cdot\overline{In_3})+(In_3\cdot\overline{In_2}\cdot\overline{In_0})+(In_2\cdot\overline{In_0}\cdot In_1)$ \\\hline
+Out\_1 & \adjustbox{valign=t}{\includegraphics[width=0.3\textwidth]{bin_to_bcd/Out_1.png}} & $Out_1=(\overline{In_0} + \overline{In_3})\cdot(In_0 + In_3)\cdot(\overline{In_2}+\overline{In_1}+ In_0)$ \\\hline
+Out\_2 & \adjustbox{valign=t}{\includegraphics[width=0.3\textwidth]{bin_to_bcd/Out_2.png}} & $Out_2=(In_2\cdot\overline{In_1}\cdot \overline{In_0})+(In_3\cdot In_0)$ \\\hline
+Out\_3 MSB & \adjustbox{valign=t}{\includegraphics[width=0.3\textwidth]{bin_to_bcd/Out_3.png}} & $Out_3=(In_2\cdot In_0)+(In_2\cdot In_1)+In_3$ \\\hline
+\end{bfhTabular}
+\end{table}

@@ -1,0 +1,247 @@
+%============================ MAIN DOCUMENT ================================
+\PassOptionsToPackage{table}{xcolor}
+\documentclass[
+  a4paper,
+  bibliography=totoc,
+  listof=totoc,
+  invert-title,
+  titleimage-ratio=13
+]{bfhpub}
+
+\usepackage[french,english,main=ngerman]{babel}  % https://www.namsu.de/Extra/pakete/Babel.html
+\LoadBFHModule{listings,terminal,boxes}
+
+%---------------------------------------------------------------------------
+% Documents paths
+%---------------------------------------------------------------------------
+\makeatletter
+\def\input@path{{content/}}
+\makeatother
+
+%---------------------------------------------------------------------------
+% Hyperref Package (Create links in a pdf)
+%---------------------------------------------------------------------------
+\usepackage[
+	,bookmarks
+	,plainpages=false
+	,pdfpagelabels
+  ,pdfusetitle
+	,backref = {false}          % No index backreference
+	,colorlinks = {true}        % Color links in a PDF
+	,hypertexnames = {true}     % no failures "same page(i)"
+	,bookmarksopen = {true}     % opens the bar on the left side
+	,bookmarksopenlevel = {0}   % depth of opened bookmarks
+	,linkcolor=.
+	,filecolor=.
+	,urlcolor=.
+	,citecolor=.
+]{hyperref}
+
+%---------------------------------------------------------------------------
+% Base packages
+%---------------------------------------------------------------------------
+% Include Packages
+\usepackage{amsmath}          % various features to facilitate writing math formulas
+\usepackage{amsthm}           % enhanced version of latex's newtheorem
+\usepackage{amsfonts}         % set of miscellaneous TeX fonts that augment the standard CM
+\usepackage{amssymb}          % mathematical special characters
+
+\usepackage{siunitx}
+
+\usepackage{graphicx}         % integration of images
+\usepackage{float}            % floating objects
+
+\usepackage{caption}          % for captions of figures and tables
+\usepackage{subcaption}       % for subcaptions in subfigures
+\usepackage{wrapfig}
+
+\usepackage{exscale}          % mathematical size corresponds to textsize
+\usepackage{multirow}         % multirow emables combining rows in tables
+\usepackage{multicol}
+\usepackage{makecell}
+
+\usepackage{longtable}
+\usepackage{adjustbox}
+
+\usepackage[colorinlistoftodos]{todonotes}
+
+\usepackage[table]{xcolor}
+
+\usepackage{array}
+
+\usepackage{mathabx}
+
+\usepackage{attachfile2}
+
+\usepackage{pgfplotstable}
+
+\usepackage{totcount}         % Abbildungs- und Tabellenverzeichnis nur bei vorhandenen Einträgen drucken
+\newtotcounter{figures}
+\newtotcounter{tables}
+\AtBeginEnvironment{figure}{\stepcounter{figures}}
+\AtBeginEnvironment{table}{\stepcounter{tables}}
+
+%---------------------------------------------------------------------------
+% Graphics paths
+%---------------------------------------------------------------------------
+\graphicspath{{pictures/}{figures/}}
+
+%---------------------------------------------------------------------------
+% Blind text -> for dummy text
+%---------------------------------------------------------------------------
+\usepackage{blindtext}    
+\usepackage{letltxmacro}   
+\LetLtxMacro{\blindtextblindtext}{\blindtext}
+
+\RenewDocumentCommand{\blindtext}{O{\value{blindtext}}}{
+	\begingroup\color{BFH-Gray}\blindtextblindtext[#1]\endgroup
+}
+
+%---------------------------------------------------------------------------
+% Bibliography Package
+%---------------------------------------------------------------------------
+\usepackage{csquotes}
+\usepackage[backend=biber,style=ieee]{biblatex}
+\addbibresource{references.bib}
+
+%---------------------------------------------------------------------------
+% Glossary Package
+%---------------------------------------------------------------------------
+\usepackage[nonumberlist, acronym]{glossaries-extra}
+\setabbreviationstyle[acronym]{long-short}
+\makeglossaries
+\input{content/glossary.tex}
+
+%---------------------------------------------------------------------------
+% Makeindex Package
+%---------------------------------------------------------------------------
+\usepackage{makeidx}
+\makeindex
+
+\begin{document}
+
+%------------ START FRONT PART ---------------------------------------------------------------------------------------------------------------------------
+\frontmatter % Nummerierung der Seiten in römischen Zahlen
+
+%----------------  BFH tile page   -----------------------------------------
+  \title{Projekt 4: Kombinatorische Logik}
+  \subtitle{BTE5213 Laborprojekte, Herbstsemester 2025/2026\\Protokoll}
+  \author{Janis Aebischer \and Simon Eisele (Gruppe D)}
+  \department{Technik und Informatik}
+  \institute{Elektrotechnik und Informationstechnologie}
+  \version{1.0}
+  \titlegraphic{\includegraphics{Bild1.png}}
+  \partnerlogo{\includegraphics[height=\height]{bfh-logo.pdf}}
+
+  \maketitle
+
+  \begin{description}
+    \item[] Durchführung des Versuchs am 24. Oktober 2025
+    \item[] Betreut durch Prof. Dr. Torsten Mähne
+  \end{description}
+
+%----------------  Abstract   ----------------------------------------------
+\section*{Abstract}
+\label{sec:abstract}
+\input{content/abstract}
+\thispagestyle{plain}
+
+%----------------  Table of contents   -------------------------------------
+\clearpage
+\tableofcontents
+
+%------------ START MAIN PART ----------------------------------------------------------------------------------------------------------------------------
+\mainmatter % Beginn mit normaler Nummerierung der Seiten
+
+%----------------  Introduction   ------------------------------------------
+\clearpage
+\section{Einleitung}
+\label{sec:introduction}
+\input{content/introduction}
+
+%----------------  Methods   -----------------------------------------------
+\clearpage
+\section{Methoden und Materialien}
+\label{sec:methods}
+\input{content/methods.tex}
+
+%----------------  Results   -----------------------------------------------
+\clearpage
+\section{Resultate}
+\label{sec:results}
+\input{content/results.tex}
+
+%----------------  Discussion   --------------------------------------------
+\clearpage
+\section{Diskussion}
+\label{sec:discussion}
+\input{content/discussion.tex}
+
+%----------------  Declaration of authorship   -----------------------------
+\clearpage
+\section*{Selbstständigkeitserklärung}
+\label{sec:declaration_of_authorship}
+\addcontentsline{toc}{section}{Selbstständigkeitserklärung}
+\markboth{Selbstständigkeitserklärung}{Selbstständigkeitserklärung}
+Ich bestätige, dass ich die vorliegende Arbeit selbstständig und ohne Benutzung anderer als der im Literaturverzeichnis angegebenen Quellen und 
+Hilfsmittel angefertigt habe. Sämtliche Textstellen, die nicht von mir stammen, sind als Zitate gekennzeichnet und mit dem genauen Hinweis auf
+ihre Herkunft versehen. Ich bestätige weiterhin, dass ich bei der Erstellung dieser Arbeit durchgehend steuernd gearbeitet habe und von einer
+KI erzeugte Texte bzw. Textfragmente nicht unreflektiert übernommen habe. 
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ccc}
+29. Oktober 2025  & \includegraphics[width=0.15\textwidth]{sig_example.png} & \includegraphics[width=0.15\textwidth]{sig_simon_eisele.png} \vspace{-0.45cm} \\
+                  & \rule{0.35\textwidth}{0.2pt} & \rule{0.35\textwidth}{0.2pt} \\
+                  & J. Aebischer & S. Eisele \\
+\end{tabular}
+\label{tab:declaration_of_authorship}
+\end{table}
+
+%----------------  Bibliography   ------------------------------------------
+\clearpage
+\printbibliography
+
+%----------------  List of figures   ---------------------------------------
+\ifnum\totvalue{figures}>0
+  \clearpage
+  \listoffigures
+\fi
+ 
+%----------------  List of tables   ----------------------------------------
+\ifnum\totvalue{tables}>0
+  \clearpage
+  \listoftables
+\fi
+
+%----------------  List of listings   --------------------------------------
+%\clearpage
+%\lstlistoflistings 
+
+%----------------  Glossary and acronyms  ----------------------------------
+\clearpage
+\printglossary[type=main]
+\printglossary[type=acronym]
+
+%------------ Index ----------------------
+\clearpage
+\printindex
+
+%------------ Appendix ----------------	
+\appendix
+\section{Anhang}
+\subsection{Logisim-Evolution Schaltpläne}
+\label{app:logisim}
+Die folgenden Dateien sind als Download verfügbar:
+\begin{itemize}
+  \item Projekt 4: \attachfile{appendix/project4.circ}{project4.circ}
+\end{itemize}
+
+\subsection{PDF}
+\label{app:pdf}
+Die folgenden Dateien sind als Download verfügbar:
+\begin{itemize}
+  \item Konzept Binär-zu-BCD: \attachfile{appendix/concept_binary_to_bcd.pdf}{concept\_binary\_to\_bcd.pdf}
+\end{itemize}
+
+\end{document}

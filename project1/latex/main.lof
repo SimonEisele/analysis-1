@@ -1,0 +1,16 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {figure}{\numberline {1}{\ignorespaces Anordnung der Segmente einer 7-Segment-Anzeige~\blx@tocontentsinit {0}\cite [Abb.~1]{tamselKombinatorischeLogikProjekt2025}}}{5}{figure.caption.15}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Darstellung der Ziffern 0 bis 9 auf der 7-Segment-Anzeige~\blx@tocontentsinit {0}\cite [Abb.~2]{tamselKombinatorischeLogikProjekt2025}}}{5}{figure.caption.18}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Implementierung des Volladdierers in \gls {le}}}{14}{figure.caption.40}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Aufbau des 8-Bit-Addierers in \gls {le}}}{15}{figure.caption.41}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Schaltung AdderTestBench in \gls {le}}}{16}{figure.caption.42}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Implementierung des Vollsubtrahierers in \gls {le}}}{18}{figure.caption.46}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Aufbau des 8-Bit-Subtrahierers in \gls {le}}}{19}{figure.caption.47}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Schaltung SubtractorTestBench in \gls {le}}}{20}{figure.caption.48}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Implementierung des 1-Bit Multiplexer in \gls {le}}}{21}{figure.caption.52}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Implementierung des 8-Bit Multiplexer in \gls {le}}}{22}{figure.caption.53}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Testen des 8-Bit Multiplexer in \gls {le}}}{23}{figure.caption.54}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Implementierung des Add3-Blocks in \gls {le}}}{26}{figure.caption.58}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Implementierung des selbst erstellten Binär zu BCD Wandlers in \gls {le}}}{27}{figure.caption.59}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Testen des Umwandlers in \gls {le}}}{28}{figure.caption.60}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

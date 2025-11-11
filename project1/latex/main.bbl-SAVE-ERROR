@@ -1,0 +1,264 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{burchLogisimevolution2024}{software}{}{}
+      \name{author}{9}{}{%
+        {{hash=1ba233717d77776028eb45e063664607}{%
+           family={Burch},
+           familyi={B\bibinitperiod},
+           given={Carl},
+           giveni={C\bibinitperiod}}}%
+        {{hash=a3e11e3e130f4a865c16581282a7b01d}{%
+           family={Kluter},
+           familyi={K\bibinitperiod},
+           given={Theo},
+           giveni={T\bibinitperiod}}}%
+        {{hash=054c37b95fd968db1dc0cada1515b649}{%
+           family={Maehne},
+           familyi={M\bibinitperiod},
+           given={Torsten},
+           giveni={T\bibinitperiod}}}%
+        {{hash=b41db937560aaffd22e8ef339eab36d7}{%
+           family={Walsh},
+           familyi={W\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=e93c20b9d577e9e52d3a78ebf6704b05}{%
+           family={Hutchens},
+           familyi={H\bibinitperiod},
+           given={David\bibnamedelima H.},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=5de16dd8d95b5026908aa30795e9cabe}{%
+           family={Orlowski},
+           familyi={O\bibinitperiod},
+           given={Marcin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6260f9db101c6fb734a82c33e1ff49f3}{%
+           family={Niget},
+           familyi={N\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod}}}%
+        {{hash=6afda1cc74eac29539196b99c6d7da7b}{%
+           family={Berman},
+           familyi={B\bibinitperiod},
+           given={Moshe},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8333a1cdb7f07a3e12ba1ca2c95489af}{%
+           family={Cruz\bibnamedelima Franqueira},
+           familyi={C\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={Theldo},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{a69faa949f71324e8b464d2360ea5db3}
+      \strng{fullhash}{a45b241bb14978abfb435b395d3af2cd}
+      \strng{fullhashraw}{a45b241bb14978abfb435b395d3af2cd}
+      \strng{bibnamehash}{a69faa949f71324e8b464d2360ea5db3}
+      \strng{authorbibnamehash}{a69faa949f71324e8b464d2360ea5db3}
+      \strng{authornamehash}{a69faa949f71324e8b464d2360ea5db3}
+      \strng{authorfullhash}{a45b241bb14978abfb435b395d3af2cd}
+      \strng{authorfullhashraw}{a45b241bb14978abfb435b395d3af2cd}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Digital logic design tool and simulator}
+      \field{month}{8}
+      \field{origday}{19}
+      \field{orighour}{5}
+      \field{origminute}{23}
+      \field{origmonth}{9}
+      \field{origsecond}{24}
+      \field{origtimezone}{Z}
+      \field{origyear}{2014}
+      \field{title}{Logisim-Evolution}
+      \field{urlday}{25}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{version}{3.9.0}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{origdateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/logisim-evolution/logisim-evolution
+      \endverb
+      \verb{url}
+      \verb https://github.com/logisim-evolution/logisim-evolution
+      \endverb
+    \endentry
+    \entry{HomeLeguanDevelopers}{online}{}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{Home - {{Leguan Developer}}'s {{Guide}}}
+      \field{urlday}{25}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\simon\Zotero\storage\VBJKAE3P\leguan.ti.bfh.ch.html
+      \endverb
+      \verb{urlraw}
+      \verb https://leguan.ti.bfh.ch/
+      \endverb
+      \verb{url}
+      \verb https://leguan.ti.bfh.ch/
+      \endverb
+    \endentry
+    \entry{tamselKombinatorischeLogikProjekt2025}{misc}{}{}
+      \name{author}{3}{}{%
+        {{hash=5c04875a8b8ea56e4091c77e843e35fd}{%
+           family={Tamsel},
+           familyi={T\bibinitperiod},
+           given={Dominic},
+           giveni={D\bibinitperiod}}}%
+        {{hash=a3e11e3e130f4a865c16581282a7b01d}{%
+           family={Kluter},
+           familyi={K\bibinitperiod},
+           given={Theo},
+           giveni={T\bibinitperiod}}}%
+        {{hash=47f1dfd9cd7c264dd5411c0c4a7beec5}{%
+           family={Mähne},
+           familyi={M\bibinitperiod},
+           given={Torsten},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {BFH-TI-Biel/Bienne}%
+      }
+      \strng{namehash}{5d88014cf443c0255003d301c18bedb9}
+      \strng{fullhash}{db6308dbc70b370aa96fb8a0d081cc7f}
+      \strng{fullhashraw}{db6308dbc70b370aa96fb8a0d081cc7f}
+      \strng{bibnamehash}{db6308dbc70b370aa96fb8a0d081cc7f}
+      \strng{authorbibnamehash}{db6308dbc70b370aa96fb8a0d081cc7f}
+      \strng{authornamehash}{5d88014cf443c0255003d301c18bedb9}
+      \strng{authorfullhash}{db6308dbc70b370aa96fb8a0d081cc7f}
+      \strng{authorfullhashraw}{db6308dbc70b370aa96fb8a0d081cc7f}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{langid}{ngerman}
+      \field{shorttitle}{Kombinatorische Logik}
+      \field{title}{Kombinatorische Logik Projekt 4 BTE5213 - Elektrische Grundlagen: Laborprojekte und technische Berichte}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb C:\Users\simon\Zotero\storage\ECVINYZL\Tamsel et al. - 2025 - Kombinatorische Logik Projekt 4 BTE5213 - Elektrische Grundlagen Laborprojekte und technische Beric.pdf
+      \endverb
+    \endentry
+    \entry{jacometDigitaltechnikGrundlagen2023}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=171580c80bbf63dae8b74ec5d99d04c5}{%
+           family={Jacomet},
+           familyi={J\bibinitperiod},
+           given={Marcel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a3e11e3e130f4a865c16581282a7b01d}{%
+           family={Kluter},
+           familyi={K\bibinitperiod},
+           given={Theo},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {BFH-TI-Biel/Bienne}%
+      }
+      \strng{namehash}{869b72d8191c346bc353d3c0e9f17e4d}
+      \strng{fullhash}{869b72d8191c346bc353d3c0e9f17e4d}
+      \strng{fullhashraw}{869b72d8191c346bc353d3c0e9f17e4d}
+      \strng{bibnamehash}{869b72d8191c346bc353d3c0e9f17e4d}
+      \strng{authorbibnamehash}{869b72d8191c346bc353d3c0e9f17e4d}
+      \strng{authornamehash}{869b72d8191c346bc353d3c0e9f17e4d}
+      \strng{authorfullhash}{869b72d8191c346bc353d3c0e9f17e4d}
+      \strng{authorfullhashraw}{869b72d8191c346bc353d3c0e9f17e4d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{11}
+      \field{langid}{ngerman}
+      \field{month}{9}
+      \field{shorttitle}{Digitaltechnik}
+      \field{title}{Digitaltechnik Grundlagen}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb C:\Users\simon\Zotero\storage\8ZWT6YN2\_.pdf
+      \endverb
+    \endentry
+    \entry{IntroductionLaTeXManual}{online}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction — {{LaTeX Manual}} Documentation}
+      \field{urlday}{1}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\simon\Zotero\storage\ZSJHRCK8\latex.ti.bfh.ch.html
+      \endverb
+      \verb{urlraw}
+      \verb https://latex.ti.bfh.ch/
+      \endverb
+      \verb{url}
+      \verb https://latex.ti.bfh.ch/
+      \endverb
+    \endentry
+    \entry{manoDigitalDesignIntroduction}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=70d8528e4cf05fba886df6935aba8185}{%
+           family={Mano},
+           familyi={M\bibinitperiod},
+           given={Morris},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a120d03b07cf73e192d3a46a7c5ff33a}{%
+           family={Ciletti},
+           familyi={C\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {California State University}%
+      }
+      \strng{namehash}{fa8385f49623c9178ec1ea8b1f77fd09}
+      \strng{fullhash}{fa8385f49623c9178ec1ea8b1f77fd09}
+      \strng{fullhashraw}{fa8385f49623c9178ec1ea8b1f77fd09}
+      \strng{bibnamehash}{fa8385f49623c9178ec1ea8b1f77fd09}
+      \strng{authorbibnamehash}{fa8385f49623c9178ec1ea8b1f77fd09}
+      \strng{authornamehash}{fa8385f49623c9178ec1ea8b1f77fd09}
+      \strng{authorfullhash}{fa8385f49623c9178ec1ea8b1f77fd09}
+      \strng{authorfullhashraw}{fa8385f49623c9178ec1ea8b1f77fd09}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Sixth Edition}
+      \field{langid}{english}
+      \field{title}{Digital {{Design With}} an {{Introduction}} to the {{Verilog HDL}}, {{VHDL}}, and {{SystemVerilog}}}
+      \verb{file}
+      \verb C:\Users\simon\Zotero\storage\S6W9ZULT\Digital Design With an Introduction to the Verilog HDL, VHDL, and SystemVerilog.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,26 @@
+\begin{table}[H]
+\caption{Wahrheitstabelle Siebensegmentanzeige}\label{tab:truthtable_bcd_to_7segment}
+\centering
+\colorlet{BFH-table}{BFH-MediumBlue!10}
+\colorlet{BFH-tablehead}{BFH-MediumBlue!50}
+\setupBfhTabular
+\begin{bfhTabular}{cccccccccccc}
+Input & a3 & a2 & a1 & a0 & seg\_A & seg\_B & seg\_C & seg\_D & seg\_E & seg\_F & seg\_G \\\hline
+\num{0} & \num{0} & \num{0} & \num{0} & \num{0} & \num{1} & \num{1} & \num{1} & \num{1} & \num{1} & \num{1} & \num{0} \\\hline
+\num{1} & \num{0} & \num{0} & \num{0} & \num{1} & \num{0} & \num{1} & \num{1} & \num{0} & \num{0} & \num{0} & \num{0} \\\hline
+\num{2} & \num{0} & \num{0} & \num{1} & \num{0} & \num{1} & \num{1} & \num{0} & \num{1} & \num{1} & \num{0} & \num{1} \\\hline
+\num{3} & \num{0} & \num{0} & \num{1} & \num{1} & \num{1} & \num{1} & \num{1} & \num{1} & \num{0} & \num{0} & \num{1} \\\hline
+\num{4} & \num{0} & \num{1} & \num{0} & \num{0} & \num{0} & \num{1} & \num{1} & \num{0} & \num{0} & \num{1} & \num{1} \\\hline
+\num{5} & \num{0} & \num{1} & \num{0} & \num{1} & \num{1} & \num{0} & \num{1} & \num{1} & \num{0} & \num{1} & \num{1} \\\hline
+\num{6} & \num{0} & \num{1} & \num{1} & \num{0} & \num{1} & \num{0} & \num{1} & \num{1} & \num{1} & \num{1} & \num{1} \\\hline
+\num{7} & \num{0} & \num{1} & \num{1} & \num{1} & \num{1} & \num{1} & \num{1} & \num{0} & \num{0} & \num{0} & \num{0} \\\hline
+\num{8} & \num{1} & \num{0} & \num{0} & \num{0} & \num{1} & \num{1} & \num{1} & \num{1} & \num{1} & \num{1} & \num{1} \\\hline
+\num{9} & \num{1} & \num{0} & \num{0} & \num{1} & \num{1} & \num{1} & \num{1} & \num{1} & \num{0} & \num{1} & \num{1} \\\hline
+\num{10} & \num{1} & \num{0} & \num{1} & \num{0} & \num{0} & - & - & - & - & - & - \\\hline
+\num{11} & \num{1} & \num{0} & \num{1} & \num{1} & \num{0} & - & - & - & - & - & - \\\hline
+\num{12} & \num{1} & \num{1} & \num{0} & \num{0} & \num{0} & - & - & - & - & - & - \\\hline
+\num{13} & \num{1} & \num{1} & \num{0} & \num{1} & \num{0} & - & - & - & - & - & - \\\hline
+\num{14} & \num{1} & \num{1} & \num{1} & \num{0} & \num{0} & - & - & - & - & - & - \\\hline
+\num{15} & \num{1} & \num{1} & \num{1} & \num{1} & \num{0} & - & - & - & - & - & - \\\hline
+\end{bfhTabular}
+\end{table}

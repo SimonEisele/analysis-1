@@ -1,0 +1,21 @@
+\begin{table}[H]
+\caption{Testprotokoll 8-Bit Multiplexer}\label{tab:test_protocol_eightbitmultiplexer}
+\centering
+\colorlet{BFH-table}{BFH-MediumGreen!10}
+\colorlet{BFH-tablehead}{BFH-MediumGreen!50}
+\setupBfhTabular
+\resizebox{\textwidth}{!}{
+\begin{bfhTabular}{cc|cc|c|c|c|c}
+\multicolumn{2}{c}{Input Xin}                                                           & \multicolumn{2}{c}{Input Yin}                                                             &SelectSub  & Erwarteter Wert       & Resultat Simulation   & Resultat Leguan-Board \\\hline
+Digitalwert & Binärwert                                                                 & Digitalwert   & Binärwert                                                                 &           &                       &                       &                       \\\hline
+\num{60}    & \num[minimum-integer-digits=4]{0011} \num[minimum-integer-digits=4]{1100} & \num{30}      & \num[minimum-integer-digits=4]{0001} \num[minimum-integer-digits=4]{1110} & \num{0}   & \num{90}              & \num{90}              & \num{90}              \\\hline
+\num{15}    & \num[minimum-integer-digits=4]{0000} \num[minimum-integer-digits=4]{1111} & \num{16}      & \num[minimum-integer-digits=4]{0001} \num[minimum-integer-digits=4]{0000} & \num{0}   & \num{31}              & \num{31}              & \num{31}              \\\hline
+\num{101}   & \num[minimum-integer-digits=4]{0110} \num[minimum-integer-digits=4]{0101} & \num{99}      & \num[minimum-integer-digits=4]{0110} \num[minimum-integer-digits=4]{0011} & \num{0}   & \num{200}             & \num{200}             & \num{200}             \\\hline
+\num{255}   & \num[minimum-integer-digits=4]{1111} \num[minimum-integer-digits=4]{1111} & \num{255}     & \num[minimum-integer-digits=4]{1111} \num[minimum-integer-digits=4]{1111} & \num{0}   & overflow+\num{254}    & overflow+\num{254}    & overflow+\num{254}    \\\hline
+\num{60}    & \num[minimum-integer-digits=4]{0011} \num[minimum-integer-digits=4]{1100} & \num{30}      & \num[minimum-integer-digits=4]{0001} \num[minimum-integer-digits=4]{1110} & \num{1}   & \num{60}              & \num{60}              & \num{60}              \\\hline
+\num{15}    & \num[minimum-integer-digits=4]{0000} \num[minimum-integer-digits=4]{1111} & \num{16}      & \num[minimum-integer-digits=4]{0001} \num[minimum-integer-digits=4]{0000} & \num{1}   & underflow+\num{255}   & underflow+\num{255}   & underflow+\num{255}   \\\hline
+\num{101}   & \num[minimum-integer-digits=4]{0110} \num[minimum-integer-digits=4]{0101} & \num{99}      & \num[minimum-integer-digits=4]{0110} \num[minimum-integer-digits=4]{0011} & \num{1}   & \num{2}               & \num{2}               & \num{2}               \\\hline
+\num{255}   & \num[minimum-integer-digits=4]{1111} \num[minimum-integer-digits=4]{1111} & \num{255}     & \num[minimum-integer-digits=4]{1111} \num[minimum-integer-digits=4]{1111} & \num{1}   & \num{0}               & \num{0}               & \num{0}               \\\hline
+\end{bfhTabular}
+}
+\end{table}
