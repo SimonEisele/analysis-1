@@ -74,6 +74,7 @@
 \usepackage{attachfile2}
 
 \usepackage{pgfplotstable}
+\pgfplotsset{compat=1.18}
 
 \usepackage{totcount}         % Abbildungs- und Tabellenverzeichnis nur bei vorhandenen Einträgen drucken
 \newtotcounter{figures}
@@ -124,27 +125,16 @@
 \frontmatter % Nummerierung der Seiten in römischen Zahlen
 
 %----------------  BFH tile page   -----------------------------------------
-  \title{Projekt 4: Kombinatorische Logik}
-  \subtitle{BTE5213 Laborprojekte, Herbstsemester 2025/2026\\Protokoll}
-  \author{Janis Aebischer \and Simon Eisele (Gruppe D)}
+  \title{Projekt 1 mit Python}
+  \subtitle{BZG1101a Analysis 1, Herbstsemester 2025/2026\\Bericht}
+  \author{Simon Eisele}
   \department{Technik und Informatik}
   \institute{Elektrotechnik und Informationstechnologie}
   \version{1.0}
-  \titlegraphic{\includegraphics{Bild1.png}}
+  \titlegraphic{\includegraphics[width=\width]{Bild1.png}}
   \partnerlogo{\includegraphics[height=\height]{bfh-logo.pdf}}
 
   \maketitle
-
-  \begin{description}
-    \item[] Durchführung des Versuchs am 24. Oktober 2025
-    \item[] Betreut durch Prof. Dr. Torsten Mähne
-  \end{description}
-
-%----------------  Abstract   ----------------------------------------------
-\section*{Abstract}
-\label{sec:abstract}
-\input{content/abstract}
-\thispagestyle{plain}
 
 %----------------  Table of contents   -------------------------------------
 \clearpage
@@ -154,49 +144,28 @@
 \mainmatter % Beginn mit normaler Nummerierung der Seiten
 
 %----------------  Introduction   ------------------------------------------
-\clearpage
-\section{Einleitung}
-\label{sec:introduction}
-\input{content/introduction}
+% \clearpage
+% \section{Einleitung}
+% \label{sec:introduction}
+% \input{content/introduction}
 
-%----------------  Methods   -----------------------------------------------
+%----------------  Exercise 01   -------------------------------------------
 \clearpage
-\section{Methoden und Materialien}
-\label{sec:methods}
-\input{content/methods.tex}
+\section{Beispiel eines Grenzwerts}
+\label{sec:exercise01}
+\input{content/exercise01.tex}
 
-%----------------  Results   -----------------------------------------------
+%----------------  Exercise 02   -------------------------------------------
 \clearpage
-\section{Resultate}
-\label{sec:results}
-\input{content/results.tex}
+\section{Logarithmische Skala}
+\label{sec:exercise02}
+\input{content/exercise02.tex}
 
-%----------------  Discussion   --------------------------------------------
+%----------------  Exercise 03   -------------------------------------------
 \clearpage
-\section{Diskussion}
-\label{sec:discussion}
-\input{content/discussion.tex}
-
-%----------------  Declaration of authorship   -----------------------------
-\clearpage
-\section*{Selbstständigkeitserklärung}
-\label{sec:declaration_of_authorship}
-\addcontentsline{toc}{section}{Selbstständigkeitserklärung}
-\markboth{Selbstständigkeitserklärung}{Selbstständigkeitserklärung}
-Ich bestätige, dass ich die vorliegende Arbeit selbstständig und ohne Benutzung anderer als der im Literaturverzeichnis angegebenen Quellen und 
-Hilfsmittel angefertigt habe. Sämtliche Textstellen, die nicht von mir stammen, sind als Zitate gekennzeichnet und mit dem genauen Hinweis auf
-ihre Herkunft versehen. Ich bestätige weiterhin, dass ich bei der Erstellung dieser Arbeit durchgehend steuernd gearbeitet habe und von einer
-KI erzeugte Texte bzw. Textfragmente nicht unreflektiert übernommen habe. 
-
-\begin{table}[H]
-\centering
-\begin{tabular}{ccc}
-29. Oktober 2025  & \includegraphics[width=0.15\textwidth]{sig_example.png} & \includegraphics[width=0.15\textwidth]{sig_simon_eisele.png} \vspace{-0.45cm} \\
-                  & \rule{0.35\textwidth}{0.2pt} & \rule{0.35\textwidth}{0.2pt} \\
-                  & J. Aebischer & S. Eisele \\
-\end{tabular}
-\label{tab:declaration_of_authorship}
-\end{table}
+\section{Ableitung}
+\label{sec:exercise03}
+\input{content/exercise03.tex}
 
 %----------------  Bibliography   ------------------------------------------
 \clearpage
@@ -219,29 +188,15 @@ KI erzeugte Texte bzw. Textfragmente nicht unreflektiert übernommen habe.
 %\lstlistoflistings 
 
 %----------------  Glossary and acronyms  ----------------------------------
-\clearpage
-\printglossary[type=main]
-\printglossary[type=acronym]
+%\clearpage
+%\printglossary[type=main]
+%\printglossary[type=acronym]
 
 %------------ Index ----------------------
-\clearpage
-\printindex
+%\clearpage
+%\printindex
 
 %------------ Appendix ----------------	
-\appendix
-\section{Anhang}
-\subsection{Logisim-Evolution Schaltpläne}
-\label{app:logisim}
-Die folgenden Dateien sind als Download verfügbar:
-\begin{itemize}
-  \item Projekt 4: \attachfile{appendix/project4.circ}{project4.circ}
-\end{itemize}
-
-\subsection{PDF}
-\label{app:pdf}
-Die folgenden Dateien sind als Download verfügbar:
-\begin{itemize}
-  \item Konzept Binär-zu-BCD: \attachfile{appendix/concept_binary_to_bcd.pdf}{concept\_binary\_to\_bcd.pdf}
-\end{itemize}
+%\appendix
 
 \end{document}

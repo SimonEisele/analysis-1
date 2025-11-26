@@ -1,0 +1,58 @@
+In Übung 3 geht es um die Annäherung der Ableitung. Die Ableitung einer Funktion kann allgemein mit folgendem Grenzwert bestimmt werden:
+\begin{equation*}
+    f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h}
+\end{equation*}
+\noindent Mit dieser Formel nähert man sich dem Punkt der Ableitung von nur einer Seite an. Man rechnet also die Steigung der Funktion zwischen dem Punkt, an welchem
+man die Ableitung ermitteln möchte und einem zweiten Punkt, welcher um $h$ verschoben ist. Um sich dem genauen Wert der Ableitung an einem Punkt noch schneller
+zu nähern, kann man folgende Formel verwenden:
+\begin{equation*}
+    f'(x) = \lim_{h \to 0} \frac{f(x + \frac{h}{2}) - f(x - \frac{h}{2})}{h}
+\end{equation*}
+\noindent Hiermit rechnet man also die Steigung zwischen zwei Punkten, welche einmal $\frac{h}{2}$ vor dem Punkt der zu ermittelnden Ableitung um einmal $\frac{h}{2}$
+dahinter liegen. Da hier beide Seiten des Punktes betrachtet werden, heben sich Fehler teilweise gegenseitig auf. Daher liefert diese Methode bereits bei grösserem $h$ eine
+deutlich präzisere Annäherung.
+
+%----------------  Derivation with different h   ---------------------------
+\subsection{Annäherung der Ableitung von sin(x)}
+Um dies an einem praktischen Beispiel zu untersuchen, versuchen wir die Ableitung von $\sin{x}$ durch die oben genannten Formeln zu bestimmen. Die korrekte Ableitung von
+$\sin{x}$ ist wie folgt:
+\begin{equation*}
+    \sin'{x} = \cos{x}
+\end{equation*}
+Um den Unterschied und die Funktion der beiden Varianten der Annäherung zur Ableitung zu zeigen, wurden die verschiedenen Kurven im Intervall $[-\frac{\pi}{2}, \frac{\pi}{2}]$
+mit jeweils immer kleiner werdendem $h$ geplottet. Auf den fünf Abbildungen ist deutlich ersichtlich, dass sich beide Varianten bei kleinem $h$ immer mehr an die korrekte 
+Ableitung annähern, wobei aber die zweite Variante jeweils näher an der korrekten Ableitung liegt.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{exercise03/exercise03-1.png}
+    \caption{Annäherung der Ableitung einer Funktion - Schritt 1: h = 5}
+    \label{fig:exercise03-1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{exercise03/exercise03-2.png}
+    \caption{Annäherung der Ableitung einer Funktion - Schritt 2: h = 3}
+    \label{fig:exercise03-2}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{exercise03/exercise03-3.png}
+    \caption{Annäherung der Ableitung einer Funktion - Schritt 3: h = 1}
+    \label{fig:exercise03-3}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{exercise03/exercise03-4.png}
+    \caption{Annäherung der Ableitung einer Funktion - Schritt 4: h = 0.5}
+    \label{fig:exercise03-4}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{exercise03/exercise03-5.png}
+    \caption{Annäherung der Ableitung einer Funktion - Schritt 5: h = 0.01}
+    \label{fig:exercise03-5}
+\end{figure}

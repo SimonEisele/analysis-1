@@ -1,7 +1,7 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.9.30)  9 NOV 2025 10:27
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.9.30)  25 NOV 2025 23:15
  restricted system commands enabled.
-**c:/Github/bsc_eit/laboratory-projects/semester1_project4/latex/main
-(c:/Github/bsc_eit/laboratory-projects/semester1_project4/latex/main.tex
+**c:/Github/bsc_eit/modules/analysis_1/project1/latex/main
+(c:/Github/bsc_eit/modules/analysis_1/project1/latex/main.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
 Lua module: luaotfload 2024-12-03 v3.29 Lua based OpenType font support
@@ -2234,11 +2234,11 @@ File: glossaries-extra-abbrstyles.def 2025/08/13 v1.8 (NLCT)
 \glo@main@file=\write7
 
 \openout7 = main.glo
-Package glossaries Info: Writing glossary file main.glo on input line 113.
+Package glossaries Info: Writing glossary file main.glo on input line 114.
 \glo@acronym@file=\write8
 
 \openout8 = main.acn
-Package glossaries Info: Writing glossary file main.acn on input line 113.
+Package glossaries Info: Writing glossary file main.acn on input line 114.
  (./content/glossary.tex) (c:/texlive/2025/texmf-dist/tex/latex/base/makeidx.sty
 Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
 )
@@ -2254,7 +2254,7 @@ Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           `bookmarkpackage=false' before \begin{document} and
 (scrartcl)           you can avoid this message adding:
 (scrartcl)             \usepackage{bookmark}
-(scrartcl)           before \begin{document} on input line 121.
+(scrartcl)           before \begin{document} on input line 122.
 (c:/texlive/2025/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (c:/texlive/2025/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
@@ -2268,33 +2268,29 @@ Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
  (./main.aux
 Package babel Info: 'ngerman' activates 'ngerman' shorthands.
 (babel)             Reported on input line 21.
-
-
-LaTeX Warning: Label `fig:logisim_bin_to_bcd' multiply defined.
-
 )
 \openout1 = main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
  (c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count606
@@ -2316,21 +2312,21 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) (c:/texlive/2025/texmf-dist/tex/latex/bfh-ci/bfhtranslations-german.trsl
 File: bfhtranslations-german.trsl (german translation file `bfhtranslations') 2022/03/01
 )
-Package translations Info: loading dictionary `bfhtranslations' for `german'. on input line 121.
+Package translations Info: loading dictionary `bfhtranslations' for `german'. on input line 122.
  (c:/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-dictionary-german.trsl
 File: translations-basic-dictionary-german.trsl (german translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `german'. on input line 121.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `german'. on input line 122.
  (c:/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 121.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 122.
  (c:/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-dictionary-french.trsl
 File: translations-basic-dictionary-french.trsl (french translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `french'. on input line 121.
-LaTeX Info: Command `\dddot' is already robust on input line 121.
-LaTeX Info: Command `\ddddot' is already robust on input line 121.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `french'. on input line 122.
+LaTeX Info: Command `\dddot' is already robust on input line 122.
+LaTeX Info: Command `\ddddot' is already robust on input line 122.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -2338,60 +2334,60 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup9
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 121.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 121.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 121.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 121.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 121.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 121.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 121.
-LaTeX Font Info:    Redeclaring math accent \check on input line 121.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 121.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 121.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 121.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 121.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 121.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 121.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 121.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 121.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 121.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 121.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 121.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 121.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 121.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 121.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 121.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 121.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 122.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 122.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 122.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 122.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 122.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 122.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 122.
+LaTeX Font Info:    Redeclaring math accent \check on input line 122.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 122.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 122.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 122.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 122.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 122.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 122.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 122.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 122.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 122.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 122.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 122.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 122.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 122.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 122.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 122.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 122.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 121.
+(Font)              `operators' in the math version `normal' on input line 122.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/SourceSerifPro(0)/m/n on input line 121.
+(Font)                  OT1/cmr/m/n --> TU/SourceSerifPro(0)/m/n on input line 122.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 121.
+(Font)              `operators' in the math version `bold' on input line 122.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/SourceSerifPro(0)/m/n on input line 121.
+(Font)                  OT1/cmr/bx/n --> TU/SourceSerifPro(0)/m/n on input line 122.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/SourceSerifPro(0)/m/n --> TU/SourceSerifPro(0)/m/n on input line 121.
+(Font)                  TU/SourceSerifPro(0)/m/n --> TU/SourceSerifPro(0)/m/n on input line 122.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/SourceSerifPro(0)/m/it on input line 121.
+(Font)                  OT1/cmr/m/it --> TU/SourceSerifPro(0)/m/it on input line 122.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/SourceSerifPro(0)/b/n on input line 121.
+(Font)                  OT1/cmr/bx/n --> TU/SourceSerifPro(0)/b/n on input line 122.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/Nunito(0)/m/n on input line 121.
+(Font)                  OT1/cmss/m/n --> TU/Nunito(0)/m/n on input line 122.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 121.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 122.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/SourceSerifPro(0)/m/n --> TU/SourceSerifPro(0)/b/n on input line 121.
+(Font)                  TU/SourceSerifPro(0)/m/n --> TU/SourceSerifPro(0)/b/n on input line 122.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/SourceSerifPro(0)/b/it on input line 121.
+(Font)                  OT1/cmr/bx/it --> TU/SourceSerifPro(0)/b/it on input line 122.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/Nunito(0)/b/n on input line 121.
+(Font)                  OT1/cmss/bx/n --> TU/Nunito(0)/b/n on input line 122.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 121.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 122.
 \c@lstlisting=\count612
-Package tocbasic Info: setting babel extension for `lol' on input line 121.
+Package tocbasic Info: setting babel extension for `lol' on input line 122.
 \scr@dte@lstlisting@maxnumwidth=\skip120
-Package hyperref Info: Link coloring ON on input line 121.
+Package hyperref Info: Link coloring ON on input line 122.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: longtable package is loaded.
  (c:/texlive/2025/texmf-dist/tex/latex/caption/ltcaption.sty
@@ -2401,9 +2397,7 @@ Package caption Info: supertabular package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-
-Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 121.
+Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 Package biblatex Info: Trying to load language 'ngerman'...
 Package biblatex Info: ... file 'ngerman.lbx' found.
@@ -2438,31 +2432,31 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 121.
-Package biblatex Info: Reference segment=0 on input line 121.
+Package biblatex Info: Reference section=0 on input line 122.
+Package biblatex Info: Reference segment=0 on input line 122.
 <pictures/bfh-logo.pdf, id=7, 34.67444pt x 54.06036pt>
 File: pictures/bfh-logo.pdf Graphic file (type pdf)
 <use pictures/bfh-logo.pdf>
-Package luatex.def Info: pictures/bfh-logo.pdf  used on input line 137.
+Package luatex.def Info: pictures/bfh-logo.pdf  used on input line 138.
 (luatex.def)             Requested size: 43.299pt x 67.5pt.
 
 
-<pictures/Bild1.png, id=8, 751.30687pt x 277.78781pt>
+<pictures/Bild1.png, id=8, 660.75429pt x 323.4943pt>
 File: pictures/Bild1.png Graphic file (type png)
 <use pictures/Bild1.png>
-Package luatex.def Info: pictures/Bild1.png  used on input line 137.
-(luatex.def)             Requested size: 751.30502pt x 277.78711pt.
+Package luatex.def Info: pictures/Bild1.png  used on input line 138.
+(luatex.def)             Requested size: 597.50793pt x 292.5292pt.
 LaTeX Font Info:    Font shape `TU/SourceSerifPro(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 137.
+(Font)              scaled to size 8.0pt on input line 138.
 LaTeX Font Info:    Font shape `TU/SourceSerifPro(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 137.
+(Font)              scaled to size 6.0pt on input line 138.
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <6> on input line 137.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 137.
+(Font)              <6> on input line 138.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 138.
 (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 137.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 138.
  (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
@@ -2470,488 +2464,169 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 \openout6 = main.ist
 
-<./pictures/Bild1.png><./pictures/bfh-logo.pdf>] (./content/abstract.tex)
-
-LaTeX Font Info:    Font shape `TU/SourceSerifPro(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 150.
-LaTeX Font Info:    Font shape `TU/SourceSerifPro(0)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 150.
-LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <5> on input line 150.
-[2
-
-
-
-] (./main.toc
-
-Package babel Info: 'ngerman' activates 'ngerman' shorthands.
-(babel)             Reported on input line 58.
-[3
-
-])
+<./pictures/Bild1.png><./pictures/bfh-logo.pdf>] (./main.toc)
 \tf@toc=\write10
 
 \openout10 = main.toc
 
 
-[4] (./content/introduction.tex
-Overfull \hbox (0.5139pt too wide) in paragraph at lines 1--4
-\TU/SourceSerifPro(0)/m/n/10.95 zu-ler-nen. Da-bei soll-ten die aus dem Mo-dul BTE󰀋󰀆󰀈󰀇-Digital „Elek-tro-nik Grund-la-gen“ ge-
- []
+LaTeX Font Info:    Font shape `TU/SourceSerifPro(0)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 144.
+LaTeX Font Info:    Font shape `TU/SourceSerifPro(0)/m/n' will be
+(Font)              scaled to size 5.0pt on input line 144.
+LaTeX Font Info:    External font `cmex7' loaded for size
+(Font)              <5> on input line 144.
+Package babel Info: 'ngerman' activates 'ngerman' shorthands.
+(babel)             Reported on input line 144.
+[2
 
 
-Overfull \hbox (3.35338pt too wide) in paragraph at lines 19--22
-\TU/SourceSerifPro(0)/m/n/10.95 ben [[][]󰀉[][], p. 󰀉] be-ar-bei-tet. Da-bei ging es dar-um, die Schal-tun-gen für den [][][]BCD[][]-zu-󰀍-Segment-
- []
 
+
+] (./content/exercise01.tex
+<pictures/exercise01/exercise01.png, id=43, 462.528pt x 346.896pt>
+File: pictures/exercise01/exercise01.png Graphic file (type png)
+<use pictures/exercise01/exercise01.png>
+Package luatex.def Info: pictures/exercise01/exercise01.png  used on input line 16.
+(luatex.def)             Requested size: 418.25555pt x 313.70677pt.
 )
 
 [1
 
 
-] (./content/methods.tex
+<./pictures/exercise01/exercise01.png>] (./content/exercise02.tex
+<pictures/exercise02/exercise02-linear-linear.png, id=60, 462.528pt x 346.896pt>
+File: pictures/exercise02/exercise02-linear-linear.png Graphic file (type png)
+<use pictures/exercise02/exercise02-linear-linear.png>
+Package luatex.def Info: pictures/exercise02/exercise02-linear-linear.png  used on input line 15.
+(luatex.def)             Requested size: 418.25555pt x 313.70677pt.
+
 
 [2
 
-]
-
-[3]
+<./pictures/exercise02/exercise02-linear-linear.png>]
 LaTeX Font Info:    Font shape `TU/SourceSerifPro(0)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 76.
-<pictures/bcd_to_7segment/7-segement-display.png, id=250, 221.97214pt x 238.31892pt>
-File: pictures/bcd_to_7segment/7-segement-display.png Graphic file (type png)
-<use pictures/bcd_to_7segment/7-segement-display.png>
-Package luatex.def Info: pictures/bcd_to_7segment/7-segement-display.png  used on input line 92.
-(luatex.def)             Requested size: 104.56389pt x 112.26445pt.
+(Font)              scaled to size 10.95pt on input line 23.
+<pictures/exercise02/exercise02-log-linear-semilogx.png, id=70, 462.528pt x 346.896pt>
+File: pictures/exercise02/exercise02-log-linear-semilogx.png Graphic file (type png)
+<use pictures/exercise02/exercise02-log-linear-semilogx.png>
+Package luatex.def Info: pictures/exercise02/exercise02-log-linear-semilogx.png  used on input line 29.
+(luatex.def)             Requested size: 418.25555pt x 313.70677pt.
 
 
-[4]
-<pictures/bcd_to_7segment/numbers_on_a_7-segement-display.png, id=268, 475.7775pt x 46.45929pt>
-File: pictures/bcd_to_7segment/numbers_on_a_7-segement-display.png Graphic file (type png)
-<use pictures/bcd_to_7segment/numbers_on_a_7-segement-display.png>
-Package luatex.def Info: pictures/bcd_to_7segment/numbers_on_a_7-segement-display.png  used on input line 103.
-(luatex.def)             Requested size: 376.42744pt x 36.75984pt.
-LaTeX Font Info:    Font shape `TU/SourceSerifPro(0)/m/sc' will be
-(Font)              scaled to size 10.95pt on input line 113.
+[3
 
-Overfull \hbox (6.37163pt too wide) in paragraph at lines 121--124
-[][]\TU/Nunito(0)/b/n/10.95 Voll-ad-die-rer[][] \TU/SourceSerifPro(0)/m/n/10.95 Der Ripple-Carry-Addierer be-steht aus meh-re-ren, hin-ter-ein-an-der-ge-schal-
- []
+<./pictures/exercise02/exercise02-log-linear-semilogx.png>]
+<pictures/exercise02/exercise02-log-linear-plot.png, id=80, 462.528pt x 346.896pt>
+File: pictures/exercise02/exercise02-log-linear-plot.png Graphic file (type png)
+<use pictures/exercise02/exercise02-log-linear-plot.png>
+Package luatex.def Info: pictures/exercise02/exercise02-log-linear-plot.png  used on input line 44.
+(luatex.def)             Requested size: 418.25555pt x 313.70677pt.
 
 
+[4
 
-[5<./pictures/bcd_to_7segment/7-segement-display.png><./pictures/bcd_to_7segment/numbers_on_a_7-segement-display.png>]
-Overfull \hbox (5.60936pt too wide) in paragraph at lines 137--139
-\TU/SourceSerifPro(0)/m/n/10.95 baut wer-den. An-schlies-send wird die er-stell-te Bau-grup-pe für das Rea-li-sie-ren der Borrow-
- []
-
-
-Overfull \hbox (1.22935pt too wide) in paragraph at lines 147--151
-\TU/SourceSerifPro(0)/m/n/10.95 gros-se Sub-tra-hie-rer rea-li-sie-ren. Ge-mäss Auf-ga-ben-stel-lung [[][]󰀉[][]] soll ein 󰀎-Bit-Subtrahierer
- []
+<./pictures/exercise02/exercise02-log-linear-plot.png>]
+<pictures/exercise02/exercise02-log-log-loglog.png, id=88, 462.528pt x 346.896pt>
+File: pictures/exercise02/exercise02-log-log-loglog.png Graphic file (type png)
+<use pictures/exercise02/exercise02-log-log-loglog.png>
+Package luatex.def Info: pictures/exercise02/exercise02-log-log-loglog.png  used on input line 58.
+(luatex.def)             Requested size: 418.25555pt x 313.70677pt.
 
 
+[5
 
-[6]
-Overfull \hbox (20.53355pt too wide) in paragraph at lines 153--155
-\TU/SourceSerifPro(0)/m/n/10.95 Mit dem glei-chen Prin-zip wie auch bei den vor-he-ri-gen Schal-tun-gen, ist der 󰀎-Bit-Multiplexer
- []
-
+<./pictures/exercise02/exercise02-log-log-loglog.png>]
+<pictures/exercise02/exercise02-log-log-plot.png, id=96, 462.528pt x 346.896pt>
+File: pictures/exercise02/exercise02-log-log-plot.png Graphic file (type png)
+<use pictures/exercise02/exercise02-log-log-plot.png>
+Package luatex.def Info: pictures/exercise02/exercise02-log-log-plot.png  used on input line 72.
+(luatex.def)             Requested size: 418.25555pt x 313.70677pt.
 )
 
-[7] (./content/results.tex (./content/results/bcd_to_7segment.tex (./tables/bcd_to_7segment/truthtable_bcd_to_7segment.tex)
+[6
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 4.
-
-(./tables/bcd_to_7segment/kv_bcd_to_7segment.tex
-Overfull \hbox (49.49498pt too wide) in alignment at lines 1--6
- [][][] 
- []
-
-
-Overfull \hbox (49.49498pt too wide) in alignment at lines 6--11
- [][][] 
- []
+<./pictures/exercise02/exercise02-log-log-plot.png>] (./content/exercise03.tex
+<pictures/exercise03/exercise03-1.png, id=103, 462.528pt x 346.896pt>
+File: pictures/exercise03/exercise03-1.png Graphic file (type png)
+<use pictures/exercise03/exercise03-1.png>
+Package luatex.def Info: pictures/exercise03/exercise03-1.png  used on input line 27.
+(luatex.def)             Requested size: 334.60571pt x 250.96648pt.
 
 
-Overfull \hbox (49.49498pt too wide) in alignment at lines 11--14
- [][][] 
- []
-
-
-Overfull \hbox (49.49498pt too wide) in alignment at lines 14--16
- [][][] 
- []
-
-<pictures/bcd_to_7segment/kv_segement_A.png, id=324, 368.1253pt x 358.33875pt>
-File: pictures/bcd_to_7segment/kv_segement_A.png Graphic file (type png)
-<use pictures/bcd_to_7segment/kv_segement_A.png>
-Package luatex.def Info: pictures/bcd_to_7segment/kv_segement_A.png  used on input line 18.
-(luatex.def)             Requested size: 125.47794pt x 122.13976pt.
-<pictures/bcd_to_7segment/kv_segement_B.png, id=325, 211.21768pt x 205.19518pt>
-File: pictures/bcd_to_7segment/kv_segement_B.png Graphic file (type png)
-<use pictures/bcd_to_7segment/kv_segement_B.png>
-Package luatex.def Info: pictures/bcd_to_7segment/kv_segement_B.png  used on input line 20.
-(luatex.def)             Requested size: 125.47794pt x 121.90321pt.
-<pictures/bcd_to_7segment/kv_segement_C.png, id=326, 212.07803pt x 205.19518pt>
-File: pictures/bcd_to_7segment/kv_segement_C.png Graphic file (type png)
-<use pictures/bcd_to_7segment/kv_segement_C.png>
-Package luatex.def Info: pictures/bcd_to_7segment/kv_segement_C.png  used on input line 22.
-(luatex.def)             Requested size: 125.47794pt x 121.40851pt.
-<pictures/bcd_to_7segment/kv_segement_D.png, id=327, 367.3725pt x 359.09157pt>
-File: pictures/bcd_to_7segment/kv_segement_D.png Graphic file (type png)
-<use pictures/bcd_to_7segment/kv_segement_D.png>
-Package luatex.def Info: pictures/bcd_to_7segment/kv_segement_D.png  used on input line 24.
-(luatex.def)             Requested size: 125.47794pt x 122.64839pt.
-<pictures/bcd_to_7segment/kv_segement_E.png, id=328, 366.61969pt x 356.83313pt>
-File: pictures/bcd_to_7segment/kv_segement_E.png Graphic file (type png)
-<use pictures/bcd_to_7segment/kv_segement_E.png>
-Package luatex.def Info: pictures/bcd_to_7segment/kv_segement_E.png  used on input line 26.
-(luatex.def)             Requested size: 125.47794pt x 122.12749pt.
-<pictures/bcd_to_7segment/kv_segement_F.png, id=329, 365.86688pt x 357.58594pt>
-File: pictures/bcd_to_7segment/kv_segement_F.png Graphic file (type png)
-<use pictures/bcd_to_7segment/kv_segement_F.png>
-Package luatex.def Info: pictures/bcd_to_7segment/kv_segement_F.png  used on input line 28.
-(luatex.def)             Requested size: 125.47794pt x 122.63612pt.
-<pictures/bcd_to_7segment/kv_segement_G.png, id=330, 367.3725pt x 358.33875pt>
-File: pictures/bcd_to_7segment/kv_segement_G.png Graphic file (type png)
-<use pictures/bcd_to_7segment/kv_segement_G.png>
-Package luatex.def Info: pictures/bcd_to_7segment/kv_segement_G.png  used on input line 30.
-(luatex.def)             Requested size: 125.47794pt x 122.39128pt.
-
-Overfull \hbox (49.49498pt too wide) in alignment at lines 16--31
- [][][] 
- []
-
-
-
-[8
-
-] [9<./pictures/bcd_to_7segment/kv_segement_A.png><./pictures/bcd_to_7segment/kv_segement_B.png><./pictures/bcd_to_7segment/kv_segement_C.png><./pictures/bcd_to_7segment/kv_segement_D.png>]) (./tables/bcd_to_7segment/limited_bcd_to_7segment.tex)
-
-[10<./pictures/bcd_to_7segment/kv_segement_E.png><./pictures/bcd_to_7segment/kv_segement_F.png><./pictures/bcd_to_7segment/kv_segement_G.png>] (./tables/bcd_to_7segment/logisim_bcd_to_7segment1.tex
-Overfull \hbox (14.48251pt too wide) in alignment at lines 1--6
- [][] 
- []
-
-
-Overfull \hbox (14.48251pt too wide) in alignment at lines 6--11
- [][] 
- []
-
-
-Overfull \hbox (14.48251pt too wide) in alignment at lines 11--14
- [][] 
- []
-
-
-Overfull \hbox (14.48251pt too wide) in alignment at lines 14--16
- [][] 
- []
-
-<pictures/bcd_to_7segment/segment_A.png, id=360, 465.88339pt x 84.74518pt>
-File: pictures/bcd_to_7segment/segment_A.png Graphic file (type png)
-<use pictures/bcd_to_7segment/segment_A.png>
-Package luatex.def Info: pictures/bcd_to_7segment/segment_A.png  used on input line 18.
-(luatex.def)             Requested size: 292.7776pt x 53.25655pt.
-<pictures/bcd_to_7segment/segment_B.png, id=361, 465.02304pt x 130.77429pt>
-File: pictures/bcd_to_7segment/segment_B.png Graphic file (type png)
-<use pictures/bcd_to_7segment/segment_B.png>
-Package luatex.def Info: pictures/bcd_to_7segment/segment_B.png  used on input line 20.
-(luatex.def)             Requested size: 292.7776pt x 82.33833pt.
-<pictures/bcd_to_7segment/segment_C.png, id=362, 465.88339pt x 78.72267pt>
-File: pictures/bcd_to_7segment/segment_C.png Graphic file (type png)
-<use pictures/bcd_to_7segment/segment_C.png>
-Package luatex.def Info: pictures/bcd_to_7segment/segment_C.png  used on input line 22.
-(luatex.def)             Requested size: 292.7776pt x 49.4718pt.
-<pictures/bcd_to_7segment/segment_D.png, id=363, 815.29594pt x 219.82124pt>
-File: pictures/bcd_to_7segment/segment_D.png Graphic file (type png)
-<use pictures/bcd_to_7segment/segment_D.png>
-Package luatex.def Info: pictures/bcd_to_7segment/segment_D.png  used on input line 24.
-(luatex.def)             Requested size: 292.7776pt x 78.93768pt.
-<pictures/bcd_to_7segment/segment_E.png, id=364, 816.80156pt x 202.50656pt>
-File: pictures/bcd_to_7segment/segment_E.png Graphic file (type png)
-<use pictures/bcd_to_7segment/segment_E.png>
-Package luatex.def Info: pictures/bcd_to_7segment/segment_E.png  used on input line 26.
-(luatex.def)             Requested size: 292.7776pt x 72.58711pt.
-<pictures/bcd_to_7segment/segment_F.png, id=365, 814.54312pt x 302.63063pt>
-File: pictures/bcd_to_7segment/segment_F.png Graphic file (type png)
-<use pictures/bcd_to_7segment/segment_F.png>
-Package luatex.def Info: pictures/bcd_to_7segment/segment_F.png  used on input line 28.
-(luatex.def)             Requested size: 292.7776pt x 108.77608pt.
-<pictures/bcd_to_7segment/segment_G.png, id=366, 816.04875pt x 201.00093pt>
-File: pictures/bcd_to_7segment/segment_G.png Graphic file (type png)
-<use pictures/bcd_to_7segment/segment_G.png>
-Package luatex.def Info: pictures/bcd_to_7segment/segment_G.png  used on input line 30.
-(luatex.def)             Requested size: 292.7776pt x 72.11491pt.
-
-Overfull \hbox (14.48251pt too wide) in alignment at lines 16--31
- [][] 
- []
-
-[11<./pictures/bcd_to_7segment/segment_A.png><./pictures/bcd_to_7segment/segment_B.png><./pictures/bcd_to_7segment/segment_C.png><./pictures/bcd_to_7segment/segment_D.png>]) (./tables/bcd_to_7segment/test_protocol_bcd_to_7segment.tex
-LaTeX Font Info:    Font shape `TU/SourceSerifPro(0)/m/it' will be
-(Font)              scaled to size 9.0pt on input line 30.
-))
-
-[12<./pictures/bcd_to_7segment/segment_E.png><./pictures/bcd_to_7segment/segment_F.png><./pictures/bcd_to_7segment/segment_G.png>] (./content/results/ripple-carry-adder.tex (./tables/ripple-carry-adder/truthtable_fulladder.tex)
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 3.
-
-(./tables/ripple-carry-adder/kv_fulladder.tex
-<pictures/ripple-carry-adder/sum.png, id=401, 307.1475pt x 204.765pt>
-File: pictures/ripple-carry-adder/sum.png Graphic file (type png)
-<use pictures/ripple-carry-adder/sum.png>
-Package luatex.def Info: pictures/ripple-carry-adder/sum.png  used on input line 10.
-(luatex.def)             Requested size: 125.47794pt x 83.65111pt.
-<pictures/ripple-carry-adder/cout.png, id=402, 309.40594pt x 202.50656pt>
-File: pictures/ripple-carry-adder/cout.png Graphic file (type png)
-<use pictures/ripple-carry-adder/cout.png>
-Package luatex.def Info: pictures/ripple-carry-adder/cout.png  used on input line 11.
-(luatex.def)             Requested size: 125.47794pt x 82.12593pt.
-)
-
-[13]
-<pictures/ripple-carry-adder/fulladder.png, id=410, 771.63281pt x 239.39438pt>
-File: pictures/ripple-carry-adder/fulladder.png Graphic file (type png)
-<use pictures/ripple-carry-adder/fulladder.png>
-Package luatex.def Info: pictures/ripple-carry-adder/fulladder.png  used on input line 8.
-(luatex.def)             Requested size: 418.25555pt x 129.76051pt.
-<pictures/ripple-carry-adder/8-bit-adder.png, id=412, 459.96844pt x 502.12593pt>
-File: pictures/ripple-carry-adder/8-bit-adder.png Graphic file (type png)
-<use pictures/ripple-carry-adder/8-bit-adder.png>
-Package luatex.def Info: pictures/ripple-carry-adder/8-bit-adder.png  used on input line 15.
-(luatex.def)             Requested size: 418.25555pt x 456.61353pt.
-
-
-[14<./pictures/ripple-carry-adder/sum.png><./pictures/ripple-carry-adder/cout.png><./pictures/ripple-carry-adder/fulladder.png>]
-<pictures/ripple-carry-adder/adder_test_bench.png, id=426, 569.87906pt x 347.04657pt>
-File: pictures/ripple-carry-adder/adder_test_bench.png Graphic file (type png)
-<use pictures/ripple-carry-adder/adder_test_bench.png>
-Package luatex.def Info: pictures/ripple-carry-adder/adder_test_bench.png  used on input line 22.
-(luatex.def)             Requested size: 418.25555pt x 254.70811pt.
- (./tables/ripple-carry-adder/test_protocol_8-bit-adder.tex
-
-[15<./pictures/ripple-carry-adder/8-bit-adder.png>])) (./content/results/borrow-bit-subtractor.tex (./tables/borrow-bit-subtractor/truthtable_fullsubtractor.tex)
-
-[16<./pictures/ripple-carry-adder/adder_test_bench.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 3.
-
-(./tables/borrow-bit-subtractor/kv_fullsubtractor.tex
-<pictures/borrow-bit-subtractor/sum.png, id=444, 525.24803pt x 348.44464pt>
-File: pictures/borrow-bit-subtractor/sum.png Graphic file (type png)
-<use pictures/borrow-bit-subtractor/sum.png>
-Package luatex.def Info: pictures/borrow-bit-subtractor/sum.png  used on input line 9.
-(luatex.def)             Requested size: 125.47794pt x 83.24028pt.
-<pictures/borrow-bit-subtractor/bout.png, id=445, 531.27054pt x 349.305pt>
-File: pictures/borrow-bit-subtractor/bout.png Graphic file (type png)
-<use pictures/borrow-bit-subtractor/bout.png>
-Package luatex.def Info: pictures/borrow-bit-subtractor/bout.png  used on input line 10.
-(luatex.def)             Requested size: 125.47794pt x 82.49709pt.
-)
-<pictures/borrow-bit-subtractor/fullsubtractor.png, id=446, 832.39554pt x 265.42018pt>
-File: pictures/borrow-bit-subtractor/fullsubtractor.png Graphic file (type png)
-<use pictures/borrow-bit-subtractor/fullsubtractor.png>
-Package luatex.def Info: pictures/borrow-bit-subtractor/fullsubtractor.png  used on input line 8.
-(luatex.def)             Requested size: 418.25555pt x 133.36584pt.
-
-
-[17<./pictures/borrow-bit-subtractor/sum.png><./pictures/borrow-bit-subtractor/bout.png>]
-<pictures/borrow-bit-subtractor/8-bit-subtractor.png, id=458, 392.75304pt x 431.03893pt>
-File: pictures/borrow-bit-subtractor/8-bit-subtractor.png Graphic file (type png)
-<use pictures/borrow-bit-subtractor/8-bit-subtractor.png>
-Package luatex.def Info: pictures/borrow-bit-subtractor/8-bit-subtractor.png  used on input line 15.
-(luatex.def)             Requested size: 418.25555pt x 459.0235pt.
-
-
-[18<./pictures/borrow-bit-subtractor/fullsubtractor.png>]
-<pictures/borrow-bit-subtractor/subtractor_test_bench.png, id=467, 527.39893pt x 310.15875pt>
-File: pictures/borrow-bit-subtractor/subtractor_test_bench.png Graphic file (type png)
-<use pictures/borrow-bit-subtractor/subtractor_test_bench.png>
-Package luatex.def Info: pictures/borrow-bit-subtractor/subtractor_test_bench.png  used on input line 22.
-(luatex.def)             Requested size: 418.25555pt x 245.97871pt.
- (./tables/borrow-bit-subtractor/test_protocol_8-bit-subtractor.tex
-
-[19<./pictures/borrow-bit-subtractor/8-bit-subtractor.png>])) (./content/results/multiplexer.tex (./tables/multiplexer/truthtable_multiplexer.tex)
-
-[20<./pictures/borrow-bit-subtractor/subtractor_test_bench.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 3.
-
-(./tables/multiplexer/kv_multiplexer.tex
-<pictures/multiplexer/kv_onebitmultiplexer.png, id=485, 200.75pt x 126.4725pt>
-File: pictures/multiplexer/kv_onebitmultiplexer.png Graphic file (type png)
-<use pictures/multiplexer/kv_onebitmultiplexer.png>
-Package luatex.def Info: pictures/multiplexer/kv_onebitmultiplexer.png  used on input line 9.
-(luatex.def)             Requested size: 125.47794pt x 79.05283pt.
-)
-<pictures/multiplexer/logisim_onebitmultiplexer.png, id=486, 619.56468pt x 91.09032pt>
-File: pictures/multiplexer/logisim_onebitmultiplexer.png Graphic file (type png)
-<use pictures/multiplexer/logisim_onebitmultiplexer.png>
-Package luatex.def Info: pictures/multiplexer/logisim_onebitmultiplexer.png  used on input line 8.
-(luatex.def)             Requested size: 418.25555pt x 61.49301pt.
-<pictures/multiplexer/logisim_eightbitmultiplexer.png, id=488, 463.7325pt x 493.0922pt>
-File: pictures/multiplexer/logisim_eightbitmultiplexer.png Graphic file (type png)
-<use pictures/multiplexer/logisim_eightbitmultiplexer.png>
-Package luatex.def Info: pictures/multiplexer/logisim_eightbitmultiplexer.png  used on input line 15.
-(luatex.def)             Requested size: 418.25555pt x 444.74194pt.
-
-
-[21<./pictures/multiplexer/kv_onebitmultiplexer.png><./pictures/multiplexer/logisim_onebitmultiplexer.png>]
-<pictures/multiplexer/logisim_test.png, id=500, 583.42969pt x 242.40562pt>
-File: pictures/multiplexer/logisim_test.png Graphic file (type png)
-<use pictures/multiplexer/logisim_test.png>
-Package luatex.def Info: pictures/multiplexer/logisim_test.png  used on input line 22.
-(luatex.def)             Requested size: 418.25555pt x 173.78474pt.
- (./tables/multiplexer/test_protocoll_multiplexer.tex
-
-[22<./pictures/multiplexer/logisim_eightbitmultiplexer.png>])) (./content/results/bin_to_bcd.tex (./tables/bin_to_bcd/truthtable_add3.tex)
-
-[23<./pictures/multiplexer/logisim_test.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 3.
-
-(./tables/bin_to_bcd/kv_add3.tex
-<pictures/bin_to_bcd/Out_0.png, id=518, 220.825pt x 215.80624pt>
-File: pictures/bin_to_bcd/Out_0.png Graphic file (type png)
-<use pictures/bin_to_bcd/Out_0.png>
-Package luatex.def Info: pictures/bin_to_bcd/Out_0.png  used on input line 9.
-(luatex.def)             Requested size: 125.47794pt x 122.62555pt.
-<pictures/bin_to_bcd/Out_1.png, id=519, 220.825pt x 215.80624pt>
-File: pictures/bin_to_bcd/Out_1.png Graphic file (type png)
-<use pictures/bin_to_bcd/Out_1.png>
-Package luatex.def Info: pictures/bin_to_bcd/Out_1.png  used on input line 10.
-(luatex.def)             Requested size: 125.47794pt x 122.62555pt.
-<pictures/bin_to_bcd/Out_2.png, id=520, 220.825pt x 215.80624pt>
-File: pictures/bin_to_bcd/Out_2.png Graphic file (type png)
-<use pictures/bin_to_bcd/Out_2.png>
-Package luatex.def Info: pictures/bin_to_bcd/Out_2.png  used on input line 11.
-(luatex.def)             Requested size: 125.47794pt x 122.62555pt.
-<pictures/bin_to_bcd/Out_3.png, id=521, 220.825pt x 215.80624pt>
-File: pictures/bin_to_bcd/Out_3.png Graphic file (type png)
-<use pictures/bin_to_bcd/Out_3.png>
-Package luatex.def Info: pictures/bin_to_bcd/Out_3.png  used on input line 12.
-(luatex.def)             Requested size: 125.47794pt x 122.62555pt.
-
-Overfull \hbox (87.65079pt too wide) in paragraph at lines 7--14
- [][] 
- []
-
-)
-
-[24]
-<pictures/bin_to_bcd/Logisim_Add3.png, id=527, 407.27156pt x 504.38437pt>
-File: pictures/bin_to_bcd/Logisim_Add3.png Graphic file (type png)
-<use pictures/bin_to_bcd/Logisim_Add3.png>
-Package luatex.def Info: pictures/bin_to_bcd/Logisim_Add3.png  used on input line 8.
-(luatex.def)             Requested size: 418.25555pt x 518.01323pt.
-
-
-[25<./pictures/bin_to_bcd/Out_0.png><./pictures/bin_to_bcd/Out_1.png><./pictures/bin_to_bcd/Out_2.png><./pictures/bin_to_bcd/Out_3.png>]
-<pictures/bin_to_bcd/Logisim_bin_to_bcd.png, id=539, 647.41875pt x 459.21562pt>
-File: pictures/bin_to_bcd/Logisim_bin_to_bcd.png Graphic file (type png)
-<use pictures/bin_to_bcd/Logisim_bin_to_bcd.png>
-Package luatex.def Info: pictures/bin_to_bcd/Logisim_bin_to_bcd.png  used on input line 15.
-(luatex.def)             Requested size: 418.25555pt x 296.67178pt.
-
-
-[26<./pictures/bin_to_bcd/Logisim_Add3.png>]
-<pictures/bin_to_bcd/Logisim_test.png, id=548, 392.96812pt x 238.64156pt>
-File: pictures/bin_to_bcd/Logisim_test.png Graphic file (type png)
-<use pictures/bin_to_bcd/Logisim_test.png>
-Package luatex.def Info: pictures/bin_to_bcd/Logisim_test.png  used on input line 22.
-(luatex.def)             Requested size: 418.25555pt x 254.01483pt.
- (./tables/bin_to_bcd/test_protocol_bin_to_bcd.tex
-
-[27<./pictures/bin_to_bcd/Logisim_bin_to_bcd.png>])))
-
-[28<./pictures/bin_to_bcd/Logisim_test.png>] (./content/discussion.tex)
-
-[29
+[7
 
 ]
-<pictures/sig_example.png, id=577, 106.18813pt x 51.20972pt>
-File: pictures/sig_example.png Graphic file (type png)
-<use pictures/sig_example.png>
-Package luatex.def Info: pictures/sig_example.png  used on input line 194.
-(luatex.def)             Requested size: 62.73578pt x 30.25409pt.
-<pictures/sig_simon_eisele.png, id=578, 179.81464pt x 80.44339pt>
-File: pictures/sig_simon_eisele.png Graphic file (type png)
-<use pictures/sig_simon_eisele.png>
-Package luatex.def Info: pictures/sig_simon_eisele.png  used on input line 194.
-(luatex.def)             Requested size: 62.73578pt x 28.066pt.
+<pictures/exercise03/exercise03-2.png, id=108, 462.528pt x 346.896pt>
+File: pictures/exercise03/exercise03-2.png Graphic file (type png)
+<use pictures/exercise03/exercise03-2.png>
+Package luatex.def Info: pictures/exercise03/exercise03-2.png  used on input line 34.
+(luatex.def)             Requested size: 334.60571pt x 250.96648pt.
+<pictures/exercise03/exercise03-3.png, id=109, 462.528pt x 346.896pt>
+File: pictures/exercise03/exercise03-3.png Graphic file (type png)
+<use pictures/exercise03/exercise03-3.png>
+Package luatex.def Info: pictures/exercise03/exercise03-3.png  used on input line 41.
+(luatex.def)             Requested size: 334.60571pt x 250.96648pt.
 
 
-[30
+[8<./pictures/exercise03/exercise03-1.png><./pictures/exercise03/exercise03-2.png>]
+<pictures/exercise03/exercise03-4.png, id=118, 462.528pt x 346.896pt>
+File: pictures/exercise03/exercise03-4.png Graphic file (type png)
+<use pictures/exercise03/exercise03-4.png>
+Package luatex.def Info: pictures/exercise03/exercise03-4.png  used on input line 48.
+(luatex.def)             Requested size: 334.60571pt x 250.96648pt.
+<pictures/exercise03/exercise03-5.png, id=119, 462.528pt x 346.896pt>
+File: pictures/exercise03/exercise03-5.png Graphic file (type png)
+<use pictures/exercise03/exercise03-5.png>
+Package luatex.def Info: pictures/exercise03/exercise03-5.png  used on input line 55.
+(luatex.def)             Requested size: 334.60571pt x 250.96648pt.
+)
 
-<./pictures/sig_example.png><./pictures/sig_simon_eisele.png>]
+[9<./pictures/exercise03/exercise03-3.png><./pictures/exercise03/exercise03-4.png>]
 
-[31
+[10<./pictures/exercise03/exercise03-5.png>]
 
-] (./main.lof)
+LaTeX Warning: Empty bibliography on input line 172.
+
+(./main.lof)
 \tf@lof=\write11
 
 \openout11 = main.lof
 
 
-[32
-
-] (./main.lot)
-\tf@lot=\write12
-
-\openout12 = main.lot
+Package glossaries Warning: No \printglossary or \printglossaries found. 
+(Remove \makeglossaries if you don't want any glossaries.) 
+This document will not have a glossary.
 
 
-[33
 
-] (./main.gls) (./main.acr)
+[11
 
-[34
-
-]
-No file main.ind.
-<<appendix/project4.circ>>
-Package hyperref Info: Option `unicode' set `false' on input line 237.
-<<appendix/concept_binary_to_bcd.pdf>>
-Package hyperref Info: Option `unicode' set `false' on input line 244.
-
-
-[35
 
 ] (./main.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 76763 strings out of 476291
- 195324,3417909 words of node,token memory allocated
- 926 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 7 glue, 4 kern, 1 penalty, 2 glyph, 69 attribute, 95 glue_spec, 16 attribute_list, 2 write, 4 pdf_action nodes
-   avail lists: 1:7,2:17524,3:662,4:2554,5:2974,6:177,7:10483,8:55,9:3634,10:18,11:865
- 96873 multiletter control sequences out of 65536+600000
- 107 fonts using 12103423 bytes
- 127i,24n,148p,11317b,2880s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><c:/texlive/2025/texmf-dist/fonts/opentype/adobe/sourceserifpro/SourceSerifPro-RegularIt.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmmono9-regular.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/nunito/Nunito-Light.otf><c:/texlive/2025/texmf-dist/fonts/opentype/adobe/sourceserifpro/SourceSerifPro-Regular.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/nunito/Nunito-Regular.otf><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/mathabx-type1/mathb10.pfb>
-Output written on main.pdf (39 pages, 2161609 bytes).
+ 75635 strings out of 476291
+ 100000,3417909 words of node,token memory allocated
+ 954 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 penalty, 2 glyph, 110 attribute, 88 glue_spec, 24 attribute_list, 2 write, 4 pdf_action nodes
+   avail lists: 1:7,2:2224,3:247,4:132,5:679,6:83,7:4208,8:40,9:525,10:7,11:380
+ 96131 multiletter control sequences out of 65536+600000
+ 102 fonts using 11358039 bytes
+ 127i,24n,148p,11306b,2479s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/opentype/public/nunito/Nunito-LightItalic.otf><c:/texlive/2025/texmf-dist/fonts/opentype/adobe/sourceserifpro/SourceSerifPro-RegularIt.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/nunito/Nunito-Light.otf><c:/texlive/2025/texmf-dist/fonts/opentype/adobe/sourceserifpro/SourceSerifPro-Regular.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/nunito/Nunito-Regular.otf><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/mathabx-type1/matha8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/mathabx-type1/mathb10.pfb>
+Output written on main.pdf (13 pages, 2671452 bytes).
 
-PDF statistics: 909 PDF objects out of 1000 (max. 8388607)
- 752 compressed objects within 8 object streams
- 177 named destinations out of 1000 (max. 131072)
- 486 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 239 PDF objects out of 1000 (max. 8388607)
+ 175 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 131072)
+ 80 words of extra memory for PDF output out of 10000 (max. 100000000)
 
