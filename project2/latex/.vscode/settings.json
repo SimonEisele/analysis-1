@@ -1,0 +1,68 @@
+{
+    // ---------------- Editor ----------------
+    "files.exclude": {
+        "**/build": true
+    },
+    
+    // ---------------- LaTeX Workshop ----------------
+    "latex-workshop.latex.outDir": "build",
+    "latex-workshop.synctex.afterBuild.enabled": true,
+    "latex-workshop.latex.autoBuild.run": "onSave",
+    "latex-workshop.latex.autoBuild.interval": 1000,
+    "latex-workshop.view.pdf.viewer": "browser",
+
+    // ---------------- Formatierung ----------------
+    "latex-workshop.formatting.latex": "latexindent",
+    "latex-workshop.formatting.latexindent.path": "C:/texlive/2025/bin/windows/latexindent.exe",
+
+    // ---------------- Tools ----------------
+    "latex-workshop.latex.tools": [
+        {
+            "name": "lualatex",
+            "command": "lualatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-output-directory=%OUTDIR%",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "lualatexmk",
+            "command": "latexmk",
+            "args": [
+                "-lualatex",
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-outdir=%OUTDIR%",
+                "%DOC%"
+            ]
+        }
+    ],
+
+    // ---------------- Recipes ----------------
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "complete",
+            "tools": ["lualatexmk"]
+        },
+        {
+            "name": "simple",
+            "tools": ["lualatex"]
+        }
+    ],
+
+    "latex-workshop.latex.recipe.default": "lastUsed",
+    "spellright.language": [
+        "de",
+        "en"
+    ],
+    "spellright.documentTypes": [
+        "latex",
+        "tex",
+        "plaintext",
+        "markdown"
+    ]
+}

@@ -1,0 +1,7 @@
+Janis
+LTSpice-Simulation
+LTSpice
+Biblatex
+Numpy
+Sourcemeterspannung
+Seriewiderstand

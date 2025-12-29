@@ -1,0 +1,302 @@
+%================ MAIN DOCUMENT ========================================================================================
+%================ GENERAL ==============================================================================================
+\PassOptionsToPackage{table}{xcolor}
+\documentclass[
+    12pt,
+    a4paper,
+    invert-title,
+    titleimage-ratio=13
+]{bfhpub}
+\usepackage[
+    left=26mm,
+    right=18mm,
+    top=31mm,
+    bottom=25mm
+]{geometry}
+
+\setlength{\parindent}{0pt}   % Einzug entfernen
+\setlength{\parskip}{0.5\baselineskip} % Abstand zwischen Absätzen
+
+%---------------- Variables --------------------------------------------------------------------------------------------
+\input{variables.tex}
+
+%---------------- Documents paths --------------------------------------------------------------------------------------
+\makeatletter
+\def\input@path{{content/}}
+\makeatother
+\graphicspath{{pictures/}{figures/}}
+
+%---------------- Hyperref Package -------------------------------------------------------------------------------------
+\usepackage[
+    bookmarks,
+    plainpages=false,
+    pdfpagelabels,
+    pdfusetitle,
+    colorlinks=\pdfColorLinks,
+    linkcolor=\pdfLinkColor,
+    urlcolor=\pdfUrlColor,
+    citecolor=\pdfCiteColor,
+    hypertexnames=true,
+    bookmarksopen=true,
+    bookmarksopenlevel=0
+]{hyperref}
+
+%---------------- Base Package -----------------------------------------------------------------------------------------
+% Mathematics
+\usepackage{amsmath}    % erweiterte Mathematik-Umgebungen
+\usepackage{amssymb}    % mathematische Symbole
+\usepackage{amsfonts}   % zusätzliche Schriftarten für Mathematik
+\usepackage{amsthm}     % erweiterte Theorem-Umgebung
+\usepackage{exscale}    % mathematische Schriftgrößen proportional zum Text
+\usepackage{siunitx}    % Einheiten (SI) und Zahlenformatierung
+
+% Graphics & figures
+\usepackage{graphicx}       % Einfügen von Bildern
+\usepackage{float}          % Steuerung der Platzierung von floats
+\usepackage{caption}        % Erweiterte Optionen für Bild- und Tabellenbeschriftungen
+\usepackage{subcaption}     % Subfigures mit Untertiteln
+\usepackage{wrapfig}        % Textfluss um Bilder
+
+% Tables
+\usepackage{multirow}       % Zusammenführen von Zellen über mehrere Zeilen
+\usepackage{multicol}       % Mehrspaltiger Text
+\usepackage{longtable}      % Tabellen, die sich über mehrere Seiten erstrecken
+\usepackage{adjustbox}      % Größe von Tabellen oder Bildern flexibel anpassen
+\usepackage{booktabs}       % Professionelle Tabellenlinien
+\usepackage{tabularx}       % Flexible Tabellenbreiten
+\usepackage{array}          % Erweiterte Tabellenoptionen
+\usepackage{csvsimple}      % CSV-Dateien einlesen
+
+% Text & layout
+\usepackage{geometry}       % Seitenränder anpassen
+\usepackage{setspace}       % Zeilenabstand (z.B. \onehalfspacing)
+\usepackage{enumitem}       % Anpassbare Listen (Aufzählung/Nummerierung)
+\usepackage{hyperref}       % PDF-Links, Lesezeichen, Farben
+\usepackage{xcolor}         % Farbdefinitionen
+\usepackage{lipsum}         % Platzhaltertext zum Testen
+\usepackage{subcaption}     % Anordnen mehrere Bilder nebeneinander
+\usepackage{wrapfig}        % Bild im Fliesstext
+
+% Logic
+\usepackage{ifthen}         % Logische Funktionen
+
+% Files
+\usepackage{attachfile2}    % Dateien einbinden
+
+% Optional / Nice-to-have
+\usepackage{cleveref}       % Intelligentes Referenzieren von Gleichungen, Abbildungen, Tabellen
+\usepackage{tikz}           % Zeichnungen, Diagramme
+\usepackage{pgfplots}       % Plots direkt in LaTeX
+\pgfplotsset{compat=1.18}
+\usepackage{listings}       % Quellcode-Darstellung
+\usepackage{csquotes}       % Korrekte Zitate, besonders mit Biblatex
+
+%---------------- Name of autorefs -------------------------------------------------------------------------------------
+\addto\extrasgerman{
+    \renewcommand{\sectionautorefname}{Kapitel}
+    \renewcommand{\subsectionautorefname}{Abschnitt}
+    \renewcommand{\subsubsectionautorefname}{Unterabschnitt}
+}
+
+%---------------- Dummy text -------------------------------------------------------------------------------------------
+\usepackage{blindtext}    
+\usepackage{letltxmacro}   
+\LetLtxMacro{\blindtextblindtext}{\blindtext}
+\RenewDocumentCommand{\blindtext}{O{\value{blindtext}}}{
+	\begingroup\color{BFH-Gray}\blindtextblindtext[#1]\endgroup
+}
+
+%---------------- Bibliography -----------------------------------------------------------------------------------------
+\usepackage{csquotes}
+\usepackage[
+    backend=biber,
+    style=ieee,
+    backref=\pdfBackref
+]{biblatex}
+\addbibresource{references.bib}
+
+%---------------- Glossary ---------------------------------------------------------------------------------------------
+\ifthenelse{\equal{\printGlossary}{true}}{
+  \usepackage[
+    nonumberlist,
+    acronym, automake
+  ]{glossaries-extra}
+  \setabbreviationstyle[acronym]{long-short}
+  \makeglossaries
+  \input{content/glossary.tex}
+}{}
+
+%================ DOCUMENT =============================================================================================
+\begin{document}
+\frontmatter % Nummerierung der Seiten in römischen Zahlen
+
+%---------------- Title page -------------------------------------------------------------------------------------------
+%----------------  BFH tile page   -----------------------------------------
+\title{\myTitle}
+\ifthenelse{\equal{\isProject}{true}}{
+    \subtitle{\myModule\\\mySubtitle\\\\Versuchsdurchführung: \myDateOfExecution\\Betreuer: \myAdvisor}
+}{
+    \subtitle{\myModule\\\mySubtitle}
+}
+\ifthenelse{\myNumberOfAuthors = 1}{\ifthenelse{\equal{\isProject}{true}}
+    {\author{\myAuthorOne, \myGroup}}
+    {\author{\myAuthorOne}}}{}
+\ifthenelse{\myNumberOfAuthors = 2}{\ifthenelse{\equal{\isProject}{true}}
+    {\author{\myAuthorOne \and \myAuthorTwo, \myGroup}}
+    {\author{\myAuthorOne \and \myAuthorTwo}}}{}
+\ifthenelse{\myNumberOfAuthors = 3}{\ifthenelse{\equal{\isProject}{true}}
+    {\author{\myAuthorOne \and \myAuthorTwo \and \myAuthorThree, \myGroup}}
+    {\author{\myAuthorOne \and \myAuthorTwo \and \myAuthorThree}}}{}
+\ifthenelse{\myNumberOfAuthors = 4}{\ifthenelse{\equal{\isProject}{true}}
+    {\author{\myAuthorOne \and \myAuthorTwo \and \myAuthorThree \and \myAuthorFour, \myGroup}}
+    {\author{\myAuthorOne \and \myAuthorTwo \and \myAuthorThree \and \myAuthorFour}}}{}
+\department{Technik und Informatik}
+\institute{Elektrotechnik und Informationstechnologie}
+\version{1.0}
+\titlegraphic{\includegraphics[width=\width]{\myTitleimage}}
+\partnerlogo{\includegraphics[height=\height]{title/bfh-logo.pdf}}
+
+\maketitle
+
+%---------------- Abstract ---------------------------------------------------------------------------------------------
+\ifthenelse{\equal{\printAbstract}{true}}{
+    \section*{Abstract}
+    \label{sec:abstract}
+    \addcontentsline{toc}{section}{Abstract}
+    \input{content/abstract}
+    \thispagestyle{plain}
+    \clearpage
+}{}
+
+%---------------- Table of contents ------------------------------------------------------------------------------------
+\tableofcontents
+\clearpage
+
+\mainmatter % Beginn mit normaler Nummerierung der Seiten
+
+%---------------- Problem 1 --------------------------------------------------------------------------------------------
+\section{Problem 1}
+\label{sec:problem1}
+\input{content/problem1.tex}
+\clearpage
+
+%---------------- Problem 2 --------------------------------------------------------------------------------------------
+\section{Problem 2}
+\label{sec:problem2}
+\input{content/problem2.tex}
+\clearpage
+
+%---------------- Introduction -----------------------------------------------------------------------------------------
+\ifthenelse{\equal{\printIntroduction}{true}}{
+    \section{Einleitung}
+    \label{sec:introduction}
+    \input{content/introduction}
+    \clearpage
+}{}
+
+%---------------- Methods ----------------------------------------------------------------------------------------------
+\ifthenelse{\equal{\printMethods}{true}}{
+    \section{Methoden}
+    \label{sec:methods}
+    \input{content/methods.tex}
+    \clearpage
+}{}
+
+%---------------- Results ----------------------------------------------------------------------------------------------
+\ifthenelse{\equal{\printResults}{true}}{
+    \clearpage
+    \section{Resultate}
+    \label{sec:results}
+    \input{content/results.tex}
+    \clearpage
+}{}
+
+%---------------- Discussion -------------------------------------------------------------------------------------------
+\ifthenelse{\equal{\printDiscussion}{true}}{
+    \clearpage
+    \section{Diskussion}
+    \label{sec:discussion}
+    \input{content/discussion.tex}
+    \clearpage
+}{}
+
+%----------------  Declaration of authorship ---------------------------------------------------------------------------
+
+\ifthenelse{\equal{\printDeclarationOfAuthorship}{true}}{
+    \section*{Selbstständigkeitserklärung}
+    \label{sec:declaration_of_authorship}
+    \addcontentsline{toc}{section}{Selbstständigkeitserklärung}
+    \markboth{Selbstständigkeitserklärung}{Selbstständigkeitserklärung}
+    Ich bestätige, dass ich die vorliegende Arbeit selbstständig und ohne Benutzung anderer als der im
+    Literaturverzeichnis angegebenen Quellen und Hilfsmittel angefertigt habe. Sämtliche Textstellen, die nicht von mir
+    stammen, sind als Zitate gekennzeichnet und mit dem genauen Hinweis auf ihre Herkunft versehen. Ich bestätige
+    weiterhin, dass ich bei der Erstellung dieser Arbeit durchgehend steuernd gearbeitet habe und von einer KI erzeugte
+    Texte bzw. Textfragmente nicht unreflektiert übernommen habe.
+
+    \myDate
+    \begin{table}[H]
+        \raggedright
+        \begin{tabular}{*{\myNumberOfAuthors}{c}}
+            % --- Zeile 1: Signaturen ---
+            \ifthenelse{\myNumberOfAuthors > 0}{\includegraphics[width=0.22\textwidth]{\myAuthorOneSignature}}{}
+            \ifthenelse{\myNumberOfAuthors > 1}{ & \includegraphics[width=0.22\textwidth]{\myAuthorTwoSignature}}{}
+            \ifthenelse{\myNumberOfAuthors > 2}{ & \includegraphics[width=0.22\textwidth]{\myAuthorThreeSignature}}{}
+            \ifthenelse{\myNumberOfAuthors > 3}{ & \includegraphics[width=0.22\textwidth]{\myAuthorFourSignature}}{}
+            \\[-0.3cm]
+
+            % --- Zeile 2: Linien ---
+            \ifthenelse{\myNumberOfAuthors > 0}{\rule{0.22\textwidth}{0.2pt}}{}
+            \ifthenelse{\myNumberOfAuthors > 1}{ & \rule{0.22\textwidth}{0.2pt}}{}
+            \ifthenelse{\myNumberOfAuthors > 2}{ & \rule{0.22\textwidth}{0.2pt}}{}
+            \ifthenelse{\myNumberOfAuthors > 3}{ & \rule{0.22\textwidth}{0.2pt}}{}
+            \\
+
+            % --- Zeile 3: Namen ---
+            \ifthenelse{\myNumberOfAuthors > 0}{\myAuthorOne }{}
+            \ifthenelse{\myNumberOfAuthors > 1}{ & \myAuthorTwo }{}
+            \ifthenelse{\myNumberOfAuthors > 2}{ & \myAuthorThree }{}
+            \ifthenelse{\myNumberOfAuthors > 3}{ & \myAuthorFour }{}
+            \\
+        \end{tabular}
+    \end{table}
+    \clearpage
+}{}
+
+%---------------- Bibliography -----------------------------------------------------------------------------------------
+\ifthenelse{\equal{\printBibliography}{true}}{
+    \printbibliography
+    \clearpage
+}{}
+
+%---------------- List of figures --------------------------------------------------------------------------------------
+\ifthenelse{\equal{\printListOfFigures}{true}}{
+    \listoffigures
+    \clearpage
+}{}
+
+%---------------- List of tables ---------------------------------------------------------------------------------------
+\ifthenelse{\equal{\printListOfTables}{true}}{
+    \listoftables
+    \clearpage
+}{}
+
+%---------------- List of listings -------------------------------------------------------------------------------------
+\ifthenelse{\equal{\printListOfListings}{true}}{
+    \lstlistoflistings
+    \clearpage
+}{}
+
+%---------------- Glossary ---------------------------------------------------------------------------------------------
+\ifthenelse{\equal{\printGlossary}{true}}{
+    \printglossary[type=main]
+    \printglossary[type=acronym]
+    \clearpage
+}{}
+
+%---------------- Appendix ---------------------------------------------------------------------------------------------
+\ifthenelse{\equal{\printAppendix}{true}}{
+    \appendix
+    \section{Anhang}
+}{}
+
+\end{document}

@@ -1,0 +1,24 @@
+{"rule":"GERMAN_WORD_REPEAT_RULE","sentence":"^\\QSelbstständigkeitserklärung Selbstständigkeitserklärung Ich bestätige, dass ich die vorliegende Arbeit selbstständig und ohne Benutzung anderer als der im Literaturverzeichnis angegebenen Quellen und Hilfsmittel angefertigt habe.\\E$"}
+{"rule":"GERMAN_WORD_REPEAT_BEGINNING_RULE","sentence":"^\\QBeispiele von Code.\\E$"}
+{"rule":"SWISS_GERMAN_SPELLER_RULE","sentence":"^\\Qcontent/\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qtrue Abstract.\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qtrue Einleitung.\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qtrue Methoden und Materialien.\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qtrue Resultate.\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qtrue Diskussion.\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qtrue Selbstständigkeitserklärung.\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qtrue Anhang 1.\\E$"}
+{"rule":"SWISS_GERMAN_SPELLER_RULE","sentence":"^\\QDie folgenden Dateien stehen als Download zur Verfügung: Projekt 4: appendix/project4.circ project4.circ\\E$"}
+{"rule":"SWISS_GERMAN_SPELLER_RULE","sentence":"^\\QBeispiel-Diagramm aus LTSpice, Data trace width = 2, Font point size = 16\\E$"}
+{"rule":"SWISS_GERMAN_SPELLER_RULE","sentence":"^\\QBeispiel-Diagramm aus LTSpice, Data trace width = 3, Font point size = 24 Beispiel-Diagramm aus LTSpice, Data trace width = 3, Font point size = 24\\E$"}
+{"rule":"SWISS_GERMAN_SPELLER_RULE","sentence":"^\\QBeispiel-Diagramm 1 Beispiel-Diagramm 2 Beispiel-Diagramme aus LTSpice, Data trace width = 3, Font point size = 24\\E$"}
+{"rule":"SWISS_GERMAN_SPELLER_RULE","sentence":"^\\Q[][c] Beispiel-Diagramm aus LTSpice, Data trace width = 3, Font point size = 24 Beispiel-Diagramm aus LTSpice, Data trace width = 3, Font point size = 24\\E$"}
+{"rule":"SWISS_GERMAN_SPELLER_RULE","sentence":"^\\QBeispiel-Schema aus LTSpice, Pen thickness = 4, Font point size = 14\\E$"}
+{"rule":"SWISS_GERMAN_SPELLER_RULE","sentence":"^\\QBeispiel-Schema aus LTSpice, Pen thickness = 4, Font point size = 12\\E$"}
+{"rule":"SWISS_GERMAN_SPELLER_RULE","sentence":"^\\QBeispiel-Schema 1 Beispiel-Schema 2 Beispiel-Schemas aus LTSpice, Pen thickness = 6, Font point size = 14\\E$"}
+{"rule":"SWISS_GERMAN_SPELLER_RULE","sentence":"^\\QDie folgenden LTSpice-Simulationen stehen als Download zur Verfügbar: Data Generation: appendix/V08b_Data_Generation_SZ.asc V08bDataGenerationSZ.asc Data Modelling: appendix/V08c_Data_Modelling_SZ.asc V08cDataModellingSZ.asc\\E$"}
+{"rule":"SWISS_GERMAN_SPELLER_RULE","sentence":"^\\QDie folgenden Python-Skripts stehen als Download zur Verfügbar: Data Modelling Solarzelle: appendix/data_modelling.py datamodelling.py\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qtrue Anhang.\\E$"}
+{"rule":"SWISS_GERMAN_SPELLER_RULE","sentence":"^\\QDie folgenden LTSpice-Simulationen stehen als Download zur Verfügbar: Data Generation: appendix/V08b_Data_Generation_SZ.asc V08bDataGenerationSZ.asc Data Modelling: appendix/V08c_Data_Modelling_SZ.asc 08cDataModellingSZ.asc\\E$"}
+{"rule":"SWISS_GERMAN_SPELLER_RULE","sentence":"^\\QDie folgenden LTSpice-Simulationen stehen als Download zur Verfügbar: Data Generation: appendix/V08b_Data_Generation_SZ.asc V08bDataGenerationSZ.as Data Modelling: appendix/V08c_Data_Modelling_SZ.asc V08cDataModellingSZ.asc\\E$"}
+{"rule":"VOLTMETER","sentence":"^\\QInnenwiderstand Amperemeter.\\E$"}
