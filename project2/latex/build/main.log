@@ -1,7 +1,7 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.9.30)  29 DEC 2025 21:09
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.9.30)  4 JAN 2026 19:58
  restricted system commands enabled.
  file:line:error style messages enabled.
-**c:/Github/bsc_eit/modules/analysis_1/project2/latex/main
+**c:/Github/bsc_eit/modules/analysis_1/project2/latex/main.tex
 (c:/Github/bsc_eit/modules/analysis_1/project2/latex/main.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -1046,7 +1046,7 @@ Package hyperref Info: Option `bookmarks' set `true' on input line 4066.
 Package hyperref Info: Option `plainpages' set `false' on input line 4066.
 Package hyperref Info: Option `pdfpagelabels' set `true' on input line 4066.
 Package hyperref Info: Option `pdfusetitle' set `true' on input line 4066.
-Package hyperref Info: Option `colorlinks' set `false' on input line 4066.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4066.
 Package hyperref Info: Option `hypertexnames' set `true' on input line 4066.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 4066.
 Package hyperref Info: Hyper figures OFF on input line 4195.
@@ -1075,7 +1075,7 @@ Package hyperref Info: Hyper figures OFF on input line 6078.
 Package hyperref Info: Link nesting OFF on input line 6083.
 Package hyperref Info: Hyper index ON on input line 6086.
 Package hyperref Info: backreferencing OFF on input line 6093.
-Package hyperref Info: Link coloring OFF on input line 6098.
+Package hyperref Info: Link coloring ON on input line 6096.
 Package hyperref Info: Link coloring with OCG OFF on input line 6103.
 Package hyperref Info: PDF/A mode OFF on input line 6108.
 \Hy@abspage=\count342
@@ -1903,7 +1903,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 130.
+Package hyperref Info: Link coloring ON on input line 130.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
@@ -1989,22 +1989,95 @@ Package babel Info: 'ngerman' activates 'ngerman' shorthands.
 
 
 
-] (./content/problem1.tex)
+] (./content/problem1.tex (./content/problem1/voltage-source.tex
+<pictures/part_01/voltage-source-schematic.png, id=53, 1066.7353pt x 580.41844pt>
+File: pictures/part_01/voltage-source-schematic.png Graphic file (type png)
+<use pictures/part_01/voltage-source-schematic.png>
+Package luatex.def Info: pictures/part_01/voltage-source-schematic.png  used on input line 8.
+(luatex.def)             Requested size: 236.15788pt x 128.48953pt.
+
 
 [1
 
 
-] (./content/problem2.tex)
+<./pictures/part_01/voltage-source-schematic.png>]
 
-[2
+[2]
+<pictures/part_01/voltage-source-power-resistor.png, id=89, 513.41812pt x 410.2828pt>
+File: pictures/part_01/voltage-source-power-resistor.png Graphic file (type png)
+<use pictures/part_01/voltage-source-power-resistor.png>
+Package luatex.def Info: pictures/part_01/voltage-source-power-resistor.png  used on input line 134.
+(luatex.def)             Requested size: 236.15788pt x 188.71985pt.
 
-] (./build/main.lof)
+
+[3<./pictures/part_01/voltage-source-power-resistor.png>]
+<pictures/part_01/voltage-source-voltage-resistor.png, id=107, 476.53032pt x 395.97937pt>
+File: pictures/part_01/voltage-source-voltage-resistor.png Graphic file (type png)
+<use pictures/part_01/voltage-source-voltage-resistor.png>
+Package luatex.def Info: pictures/part_01/voltage-source-voltage-resistor.png  used on input line 163.
+(luatex.def)             Requested size: 236.15788pt x 196.24301pt.
+) (./content/problem1/current-source.tex
+<pictures/part_02/current-source-schematic.png, id=109, 1070.49937pt x 578.16pt>
+File: pictures/part_02/current-source-schematic.png Graphic file (type png)
+<use pictures/part_02/current-source-schematic.png>
+Package luatex.def Info: pictures/part_02/current-source-schematic.png  used on input line 8.
+(luatex.def)             Requested size: 236.15788pt x 127.53964pt.
+
+
+[4<./pictures/part_01/voltage-source-voltage-resistor.png>]
+
+[5<./pictures/part_02/current-source-schematic.png>]
+
+[6]
+<pictures/part_02/current-source-power-resistor.png, id=150, 498.36188pt x 420.82219pt>
+File: pictures/part_02/current-source-power-resistor.png Graphic file (type png)
+<use pictures/part_02/current-source-power-resistor.png>
+Package luatex.def Info: pictures/part_02/current-source-power-resistor.png  used on input line 140.
+(luatex.def)             Requested size: 236.15788pt x 199.41101pt.
+
+
+[7<./pictures/part_02/current-source-power-resistor.png>]
+<pictures/part_02/current-source-current-resistor.png, id=166, 504.38437pt x 411.03563pt>
+File: pictures/part_02/current-source-current-resistor.png Graphic file (type png)
+<use pictures/part_02/current-source-current-resistor.png>
+Package luatex.def Info: pictures/part_02/current-source-current-resistor.png  used on input line 173.
+(luatex.def)             Requested size: 236.15788pt x 192.45296pt.
+))
+
+[8<./pictures/part_02/current-source-current-resistor.png>] (./content/problem2.tex
+<pictures/problem_03/function-g.png, id=181, 517.935pt x 440.39531pt>
+File: pictures/problem_03/function-g.png Graphic file (type png)
+<use pictures/problem_03/function-g.png>
+Package luatex.def Info: pictures/problem_03/function-g.png  used on input line 28.
+(luatex.def)             Requested size: 212.54065pt x 180.72452pt.
+<pictures/problem_03/function-h.png, id=182, 517.935pt x 433.62pt>
+File: pictures/problem_03/function-h.png Graphic file (type png)
+<use pictures/problem_03/function-h.png>
+Package luatex.def Info: pictures/problem_03/function-h.png  used on input line 34.
+(luatex.def)             Requested size: 212.54065pt x 177.94414pt.
+<pictures/problem_03/function-g-h.png, id=185, 562.35094pt x 435.12563pt>
+File: pictures/problem_03/function-g-h.png Graphic file (type png)
+<use pictures/problem_03/function-g-h.png>
+Package luatex.def Info: pictures/problem_03/function-g-h.png  used on input line 46.
+(luatex.def)             Requested size: 212.54065pt x 164.45313pt.
+<pictures/problem_03/function-f.png, id=186, 502.12593pt x 412.54124pt>
+File: pictures/problem_03/function-f.png Graphic file (type png)
+<use pictures/problem_03/function-f.png>
+Package luatex.def Info: pictures/problem_03/function-f.png  used on input line 52.
+(luatex.def)             Requested size: 212.54065pt x 174.62582pt.
+
+
+[9
+
+<./pictures/problem_03/function-g.png><./pictures/problem_03/function-h.png>])
+
+[10<./pictures/problem_03/function-g-h.png><./pictures/problem_03/function-f.png>] (./build/main.lof)
 \tf@lof=\write8
 
 \openout8 = main.lof
 
 
-[3
+[11
 
 ] (./build/main.lot)
 \tf@lot=\write9
@@ -2012,7 +2085,7 @@ Package babel Info: 'ngerman' activates 'ngerman' shorthands.
 \openout9 = main.lot
 
 
-[4
+[12
 
 ]
 
@@ -2024,31 +2097,25 @@ See the caption package documentation for explanation.
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 60916 strings out of 476291
+ 61194 strings out of 476291
  100000,2848258 words of node,token memory allocated
- 698 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 16 attribute, 82 glue_spec, 10 attribute_list, 3 write nodes
-   avail lists: 1:2,2:985,3:236,4:96,5:187,6:84,7:1078,8:1,9:455,10:6,11:87
- 81757 multiletter control sequences out of 65536+600000
+ 1001 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 119 attribute, 84 glue_spec, 61 attribute_list, 3 write, 1 pdf_action nodes
+   avail lists: 1:1,2:1343,3:279,4:104,5:783,6:94,7:4406,8:42,9:967,10:8,11:382
+ 81931 multiletter control sequences out of 65536+600000
  82 fonts using 9545111 bytes
- 127i,24n,148p,11318b,2481s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 127i,24n,148p,11322b,2481s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/opentype/public/nunito/Nunito-Light.otf><c:/texlive/2025/texmf-dist/fonts/opentype/adobe/sourceserifpro/SourceSerifPro-Regular.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/nunito/Nunito-Regular.otf><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on main.pdf (14 pages, 2143481 bytes).
 
-warning  (pdf backend): unreferenced destination with name 'appendix.A'
-<c:/texlive/2025/texmf-dist/fonts/opentype/adobe/sourceserifpro/SourceSerifPro-Regular.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/nunito/Nunito-Regular.otf><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (6 pages, 1499138 bytes).
-
-PDF statistics: 111 PDF objects out of 1000 (max. 8388607)
- 92 compressed objects within 1 object stream
- 20 named destinations out of 1000 (max. 131072)
- 88 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 332 PDF objects out of 1000 (max. 8388607)
+ 270 compressed objects within 3 object streams
+ 81 named destinations out of 1000 (max. 131072)
+ 120 words of extra memory for PDF output out of 10000 (max. 100000000)
 

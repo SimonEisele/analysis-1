@@ -6,27 +6,35 @@ import matplotlib.pyplot as plt
 
 # Define function
 def f(x):
-    return np.sin(1/x)/(1/x)
+    return (((np.cos(2 * np.pow(x, 3) + 1) * np.exp(x - 1) +
+            np.cos(-2 * np.pow(x, 3) + 1) * np.exp(-x - 1)) / 2) +
+            ((np.cos(2 * np.pow(x, 3) + 1) * np.exp(x - 1) -
+              np.cos(-2 * np.pow(x, 3) + 1) * np.exp(-x - 1)) / 2))
 
 
 # Define x-Values
-xValues = np.linspace(1e-9, 10, 1000000)
+xValues = np.linspace(-3, 3, 1000000)
 
 # Calculate y-Values
 yValues = f(xValues)
 
 ###############################################################################
+# Plot-parameters
+plt.rcParams.update({
+        "axes.labelsize": 18,      # Achsenbeschriftungen
+        "legend.fontsize": 18,     # Legende
+        "xtick.labelsize": 18,     # Tick-Beschriftungen X
+        "ytick.labelsize": 18      # Tick-Beschriftungen Y
+    })
+
 # Create plot
-plt.axhline(y=1,
-            label=r'$y = 1$',
-            color='r', linestyle='--', linewidth=0.7)
 plt.plot(xValues, yValues,
-         label=r'$f(x) = \frac{\sin(\frac{1}{x})}{\frac{1}{x}}$',
+         label=r'$g(x) + h(x)$',
          linewidth=0.7)
 plt.xlim(xValues.min(), xValues.max())
 plt.xlabel('x')
-plt.ylabel('f(x)')
-plt.title('Beispiel eines Grenzwerts')
+plt.ylabel('g(x) + h(x)')
+# plt.title('Leistung einer Spannungsquelle in Funktion des Lastwiderstands')
 plt.grid(which='major', color='gray', linestyle='-', linewidth=0.8)
 plt.grid(which='minor', color='gray', linestyle='--', linewidth=0.5)
 plt.minorticks_on()
