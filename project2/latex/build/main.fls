@@ -489,8 +489,6 @@ INPUT ./pictures/problem_03/function-f.png
 INPUT ./pictures/problem_03/function-f.png
 INPUT ./build/main.lof
 OUTPUT build/main.lof
-INPUT ./build/main.lot
-OUTPUT build/main.lot
 INPUT ./build/main.aux
 INPUT ./build/main.run.xml
 OUTPUT build/main.run.xml
