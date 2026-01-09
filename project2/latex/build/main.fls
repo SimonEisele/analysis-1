@@ -487,6 +487,8 @@ INPUT ./pictures/problem_03/function-g-h.png
 INPUT ./pictures/problem_03/function-g-h.png
 INPUT ./pictures/problem_03/function-f.png
 INPUT ./pictures/problem_03/function-f.png
+INPUT ./pictures/problem_03/function-f-g-h.png
+INPUT ./pictures/problem_03/function-f-g-h.png
 INPUT ./build/main.lof
 OUTPUT build/main.lof
 INPUT ./build/main.aux

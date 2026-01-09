@@ -1,7 +1,5 @@
 import numpy as np
 import matplotlib.pyplot as plt
-# from tkinter import Tk
-# from tkinter.filedialog import asksaveasfilename
 
 
 # Define function
@@ -11,7 +9,7 @@ def f(x):
 
 
 # Define x-Values
-xValues = np.linspace(-3, 3, 1000000)
+xValues = np.linspace(-2.5, 2.5, 1000000)
 
 # Calculate y-Values
 yValues = f(xValues)
@@ -26,10 +24,7 @@ plt.rcParams.update({
     })
 
 # Create plot
-plt.plot(xValues, yValues,
-         label=r'$h(x) = \frac{cos(2x^3 + 1)e^{x-1}'
-         r'- cos(-2x^3 + 1)e^{-x-1}}{2}$',
-         linewidth=0.7)
+plt.plot(xValues, yValues, label=r'h(x)', linewidth=0.7)
 plt.xlim(xValues.min(), xValues.max())
 plt.xlabel('x')
 plt.ylabel('h(x)')
@@ -38,26 +33,6 @@ plt.grid(which='major', color='gray', linestyle='-', linewidth=0.8)
 plt.grid(which='minor', color='gray', linestyle='--', linewidth=0.5)
 plt.minorticks_on()
 plt.legend()
-
-# Save plot as png
-"""
-root = Tk()
-root.withdraw()
-
-# Open explorer
-location = asksaveasfilename(
-    defaultextension=".png",
-    filetypes=[("PNG files", "*.png")],
-    title="Speicherort für Plot auswählen",
-    initialfile="exercise01.png"
-)
-
-if location:
-    plt.savefig(location, dpi=300)
-    print(f"Plot gespeichert unter: {location}")
-else:
-    print("Speichern abgebrochen.")
-"""
 
 # Show plot
 plt.show()

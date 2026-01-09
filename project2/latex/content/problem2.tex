@@ -5,7 +5,7 @@ Wir betrachten folgende Funktion:
 \begin{equation}
     f(x) = cos(2x^3 + 1)e^{x-1}
 \end{equation}
-Eine Funktion $f$ lässt sich als Summe zweier Funktionen $g$ und $h$ schreiben:
+Eine Funktion $f$ lässt sich als Summe zweier Teilfunktionen $g$ und $h$ schreiben:
 \begin{equation}
     f(x) = g(x) + h(x)
 \end{equation}
@@ -16,8 +16,8 @@ wobei:
 \end{align}
 Wenden wir dies auf unsere Funktion $f$ an, so erhalten wir folgende zwei Teilfunktionen:
 \begin{align}
-    g(x) = \frac{e{-1}}{2}\left(\cos(2x^3 + 1)e^{x} + \cos(-2x^3 + 1)e^{-x}\right) \\
-    h(x) = \frac{e^{-1}}{2}\left(\cos(2x^3 + 1)e^{x} - \cos(-2x^3 + 1)e^{-x}\right)
+    g(x) = \frac{e{-1}}{2}\left(\cos\left(2x^3 + 1\right)e^{x} + \cos\left(-2x^3 + 1\right)e^{-x}\right) \\
+    h(x) = \frac{e^{-1}}{2}\left(\cos\left(2x^3 + 1\right)e^{x} - \cos\left(-2x^3 + 1\right)e^{-x}\right)
 \end{align}
 
 Die beiden Teilfunktionen sind in \autoref{fig:problem03-function-g} und \autoref{fig:problem03-function-h} ersichtlich.
@@ -37,7 +37,7 @@ Die beiden Teilfunktionen sind in \autoref{fig:problem03-function-g} und \autore
     \end{minipage}
 \end{figure}
 
-Die Summe der beiden Funktionen $g(x)$ und $h(x)$ ist in \autoref{fig:problem03-function-g-h} dargestellt. Rechts
+Die Summe der beiden Teilfunktionen $g(x)$ und $h(x)$ ist in \autoref{fig:problem03-function-g-h} dargestellt. Rechts
 daneben in \autoref{fig:problem03-function-f} ist die originale Funktion ersichtlich.
 \begin{figure}[H]
     \centering
@@ -57,3 +57,12 @@ daneben in \autoref{fig:problem03-function-f} ist die originale Funktion ersicht
 Die Funktion $f(x)$ lässt sich eindeutig in eine gerade und eine ungerade Funktion zerlegen. Die grafische Darstellung
 bestätigt, dass die Summe dieser beiden Teilfunktionen ($g(x)$ und $h(x)$) exakt der ursprünglichen Funktion $f(x)$
 entspricht.
+
+Damit die Addition der beiden Funktionen $g(x)$ und $h(x)$ zu $f(x)$ besser ersichtlich ist, wurden die drei Funktionen
+zusammen auf einem Graphen in \autoref{fig:part03-function-f-g-h} dargestellt.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{problem_03/function-f-g-h.png}
+    \caption{Addition der Funktionen $g(x)$ und $h(x)$ zu $f(x)$}
+    \label{fig:part03-function-f-g-h}
+\end{figure}

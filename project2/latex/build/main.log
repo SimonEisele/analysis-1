@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.9.30)  4 JAN 2026 19:59
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.9.30)  9 JAN 2026 08:27
  restricted system commands enabled.
  file:line:error style messages enabled.
 **c:/Github/bsc_eit/modules/analysis_1/project2/latex/main.tex
@@ -2003,10 +2003,10 @@ Package luatex.def Info: pictures/part_01/voltage-source-schematic.png  used on 
 <./pictures/part_01/voltage-source-schematic.png>]
 
 [2]
-<pictures/part_01/voltage-source-power-resistor.png, id=89, 513.41812pt x 410.2828pt>
+<pictures/part_01/voltage-source-power-resistor.png, id=90, 513.41812pt x 410.2828pt>
 File: pictures/part_01/voltage-source-power-resistor.png Graphic file (type png)
 <use pictures/part_01/voltage-source-power-resistor.png>
-Package luatex.def Info: pictures/part_01/voltage-source-power-resistor.png  used on input line 134.
+Package luatex.def Info: pictures/part_01/voltage-source-power-resistor.png  used on input line 133.
 (luatex.def)             Requested size: 236.15788pt x 188.71985pt.
 
 
@@ -2014,25 +2014,25 @@ Package luatex.def Info: pictures/part_01/voltage-source-power-resistor.png  use
 <pictures/part_01/voltage-source-voltage-resistor.png, id=107, 476.53032pt x 395.97937pt>
 File: pictures/part_01/voltage-source-voltage-resistor.png Graphic file (type png)
 <use pictures/part_01/voltage-source-voltage-resistor.png>
-Package luatex.def Info: pictures/part_01/voltage-source-voltage-resistor.png  used on input line 163.
+Package luatex.def Info: pictures/part_01/voltage-source-voltage-resistor.png  used on input line 166.
 (luatex.def)             Requested size: 236.15788pt x 196.24301pt.
 ) (./content/problem1/current-source.tex
-<pictures/part_02/current-source-schematic.png, id=109, 1070.49937pt x 578.16pt>
+
+[4<./pictures/part_01/voltage-source-voltage-resistor.png>]
+<pictures/part_02/current-source-schematic.png, id=118, 1070.49937pt x 578.16pt>
 File: pictures/part_02/current-source-schematic.png Graphic file (type png)
 <use pictures/part_02/current-source-schematic.png>
 Package luatex.def Info: pictures/part_02/current-source-schematic.png  used on input line 8.
 (luatex.def)             Requested size: 236.15788pt x 127.53964pt.
 
 
-[4<./pictures/part_01/voltage-source-voltage-resistor.png>]
-
 [5<./pictures/part_02/current-source-schematic.png>]
 
 [6]
-<pictures/part_02/current-source-power-resistor.png, id=150, 498.36188pt x 420.82219pt>
+<pictures/part_02/current-source-power-resistor.png, id=151, 498.36188pt x 420.82219pt>
 File: pictures/part_02/current-source-power-resistor.png Graphic file (type png)
 <use pictures/part_02/current-source-power-resistor.png>
-Package luatex.def Info: pictures/part_02/current-source-power-resistor.png  used on input line 140.
+Package luatex.def Info: pictures/part_02/current-source-power-resistor.png  used on input line 139.
 (luatex.def)             Requested size: 236.15788pt x 199.41101pt.
 
 
@@ -2040,38 +2040,44 @@ Package luatex.def Info: pictures/part_02/current-source-power-resistor.png  use
 <pictures/part_02/current-source-current-resistor.png, id=166, 504.38437pt x 411.03563pt>
 File: pictures/part_02/current-source-current-resistor.png Graphic file (type png)
 <use pictures/part_02/current-source-current-resistor.png>
-Package luatex.def Info: pictures/part_02/current-source-current-resistor.png  used on input line 173.
+Package luatex.def Info: pictures/part_02/current-source-current-resistor.png  used on input line 172.
 (luatex.def)             Requested size: 236.15788pt x 192.45296pt.
 ))
 
 [8<./pictures/part_02/current-source-current-resistor.png>] (./content/problem2.tex
-<pictures/problem_03/function-g.png, id=181, 517.935pt x 440.39531pt>
+<pictures/problem_03/function-g.png, id=182, 671.50874pt x 498.36188pt>
 File: pictures/problem_03/function-g.png Graphic file (type png)
 <use pictures/problem_03/function-g.png>
 Package luatex.def Info: pictures/problem_03/function-g.png  used on input line 28.
-(luatex.def)             Requested size: 212.54065pt x 180.72452pt.
-<pictures/problem_03/function-h.png, id=182, 517.935pt x 433.62pt>
+(luatex.def)             Requested size: 212.54065pt x 157.73766pt.
+<pictures/problem_03/function-h.png, id=183, 672.26157pt x 499.8675pt>
 File: pictures/problem_03/function-h.png Graphic file (type png)
 <use pictures/problem_03/function-h.png>
 Package luatex.def Info: pictures/problem_03/function-h.png  used on input line 34.
-(luatex.def)             Requested size: 212.54065pt x 177.94414pt.
-<pictures/problem_03/function-g-h.png, id=185, 562.35094pt x 435.12563pt>
+(luatex.def)             Requested size: 212.54065pt x 158.03877pt.
+<pictures/problem_03/function-g-h.png, id=186, 676.77844pt x 511.9125pt>
 File: pictures/problem_03/function-g-h.png Graphic file (type png)
 <use pictures/problem_03/function-g-h.png>
 Package luatex.def Info: pictures/problem_03/function-g-h.png  used on input line 46.
-(luatex.def)             Requested size: 212.54065pt x 164.45313pt.
-<pictures/problem_03/function-f.png, id=186, 502.12593pt x 412.54124pt>
+(luatex.def)             Requested size: 212.54065pt x 160.76118pt.
+<pictures/problem_03/function-f.png, id=187, 676.02562pt x 502.12593pt>
 File: pictures/problem_03/function-f.png Graphic file (type png)
 <use pictures/problem_03/function-f.png>
 Package luatex.def Info: pictures/problem_03/function-f.png  used on input line 52.
-(luatex.def)             Requested size: 212.54065pt x 174.62582pt.
+(luatex.def)             Requested size: 212.54065pt x 157.86403pt.
 
 
 [9
 
-<./pictures/problem_03/function-g.png><./pictures/problem_03/function-h.png>])
+<./pictures/problem_03/function-g.png><./pictures/problem_03/function-h.png>]
+<pictures/problem_03/function-f-g-h.png, id=207, 667.74469pt x 510.40688pt>
+File: pictures/problem_03/function-f-g-h.png Graphic file (type png)
+<use pictures/problem_03/function-f-g-h.png>
+Package luatex.def Info: pictures/problem_03/function-f-g-h.png  used on input line 65.
+(luatex.def)             Requested size: 377.85405pt x 288.83212pt.
+)
 
-[10<./pictures/problem_03/function-g-h.png><./pictures/problem_03/function-f.png>] (./build/main.lof)
+[10<./pictures/problem_03/function-g-h.png><./pictures/problem_03/function-f.png><./pictures/problem_03/function-f-g-h.png>] (./build/main.lof)
 \tf@lof=\write8
 
 \openout8 = main.lof
@@ -2095,19 +2101,19 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 61176 strings out of 476291
+ 61189 strings out of 476291
  100000,2848258 words of node,token memory allocated
- 1001 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 119 attribute, 84 glue_spec, 61 attribute_list, 3 write, 1 pdf_action nodes
-   avail lists: 1:1,2:1343,3:279,4:104,5:783,6:94,7:4406,8:42,9:967,10:7,11:382
- 81922 multiletter control sequences out of 65536+600000
+ 977 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 111 attribute, 84 glue_spec, 57 attribute_list, 3 write, 1 pdf_action nodes
+   avail lists: 1:1,2:1398,3:279,4:104,5:765,6:94,7:4386,8:44,9:1095,10:7,11:374
+ 81933 multiletter control sequences out of 65536+600000
  82 fonts using 9545111 bytes
  127i,24n,148p,11322b,2481s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/opentype/public/nunito/Nunito-Light.otf><c:/texlive/2025/texmf-dist/fonts/opentype/adobe/sourceserifpro/SourceSerifPro-Regular.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/nunito/Nunito-Regular.otf><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (13 pages, 2142980 bytes).
+Output written on main.pdf (13 pages, 2237885 bytes).
 
-PDF statistics: 327 PDF objects out of 1000 (max. 8388607)
- 266 compressed objects within 3 object streams
- 79 named destinations out of 1000 (max. 131072)
+PDF statistics: 334 PDF objects out of 1000 (max. 8388607)
+ 271 compressed objects within 3 object streams
+ 78 named destinations out of 1000 (max. 131072)
  120 words of extra memory for PDF output out of 10000 (max. 100000000)
 

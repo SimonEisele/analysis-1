@@ -1,7 +1,5 @@
 import numpy as np
 import matplotlib.pyplot as plt
-# from tkinter import Tk
-# from tkinter.filedialog import asksaveasfilename
 
 
 # Define function
@@ -36,26 +34,6 @@ plt.grid(which='major', color='gray', linestyle='-', linewidth=0.8)
 plt.grid(which='minor', color='gray', linestyle='--', linewidth=0.5)
 plt.minorticks_on()
 plt.legend()
-
-# Save plot as png
-"""
-root = Tk()
-root.withdraw()
-
-# Open explorer
-location = asksaveasfilename(
-    defaultextension=".png",
-    filetypes=[("PNG files", "*.png")],
-    title="Speicherort für Plot auswählen",
-    initialfile="exercise01.png"
-)
-
-if location:
-    plt.savefig(location, dpi=300)
-    print(f"Plot gespeichert unter: {location}")
-else:
-    print("Speichern abgebrochen.")
-"""
 
 # Show plot
 plt.show()

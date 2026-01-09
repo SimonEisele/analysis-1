@@ -26,9 +26,9 @@ Die elektrische Leistung am Lastwiderstand $R_\mathrm{L}$ wird gemäss Schaltung
     \label{eq:part01-power1}
 \end{equation}
 
-Die Spannung $U$ und der Strom $I$ können in Abhängigkeit der Leerlaufspannung $U_\mathrm{0}$ und der beiden
-Widerstände $R_\mathrm{i}$ und $R_\mathrm{L}$ dargestellt werden. Die entsprechenden Formeln ergeben sich aus dem
-Spannungsteiler, sowie dem Ohmschem Gesetz:
+Die Spannung $U$ und der Strom $I$ können in Abhängigkeit der Leerlaufspannung $U_\mathrm{0}$ und der beiden Widerstände
+$R_\mathrm{i}$ und $R_\mathrm{L}$ dargestellt werden. Die entsprechenden Formeln ergeben sich aus den Formeln für den
+Spannungsteiler, sowie dem ohmschen Gesetz:
 \begin{align}
     U &= U_\mathrm{0}\frac{R_\mathrm{L}}{R_\mathrm{i} + R_\mathrm{L}}
     \label{eq:part01-working-point-voltage} \\
@@ -37,7 +37,7 @@ Spannungsteiler, sowie dem Ohmschem Gesetz:
 \end{align}
 
 Ersetzt man in \autoref{eq:part01-power1} $U$ und $I$ durch die gefundenen Äquivalente, so erhält man die Formel für den
-Leistungsverlauf von $P$ in Abhängigkeit des Widerstands $R_\mathrm{L}$.
+Leistungsverlauf von  $P$ in Abhängigkeit des Widerstands $R_\mathrm{L}$.
 \begin{equation}
     P(R_\mathrm{L}) = U_\mathrm{0}^2\frac{R_\mathrm{L}}{(R_\mathrm{i} + R_\mathrm{L})^2}
     \label{eq:part01-power2}
@@ -46,8 +46,8 @@ Leistungsverlauf von $P$ in Abhängigkeit des Widerstands $R_\mathrm{L}$.
 %---------------- Maximale Leistung ------------------------------------------------------------------------------------
 \subsubsection{Maximale Leistung}
 \label{subusub:part01-max-power}
-Um den Punkt der maximalen Leistung zu bestimmen, muss diese Gleichung nach $R_\mathrm{L}$ abgeleitet und gleich null
-gesetzt werden. Dazu wenden wir die Quotientenregel an.
+Zur Bestimmung der Extremstellen der Leistungsfunktion $P(R_\mathrm{L})$ wird die erste Ableitung gebildet und gleich
+null gesetzt. Dazu wird die Quotientenregel angewendet.
 \begin{align}
     f'(x) = c \cdot \frac{u'(x) \cdot v(x) - u(x) \cdot v'(x)}{v^2(x)}
 \end{align}
@@ -59,7 +59,7 @@ gesetzt werden. Dazu wenden wir die Quotientenregel an.
     v'(x) &= 2R_\mathrm{i} + 2R_\mathrm{L}
 \end{align*}
 
-Daraus ergibt sich die Ableitung wie folgt:
+Daraus ergibt sich die erste Ableitung wie folgt:
 \begin{equation}
     P'(R_\mathrm{L}) = U_\mathrm{0}^2\frac{(R_\mathrm{i} + R_\mathrm{L})^2 - R_\mathrm{L}(2R_\mathrm{i} +
         2R_\mathrm{L})}{(R_\mathrm{i} + R_\mathrm{L})^4}
@@ -70,19 +70,19 @@ Durch Ausmultiplizieren und Wegkürzen folgt:
     P'(R_\mathrm{L}) = U_\mathrm{0}^2\frac{(R_\mathrm{i} - R_\mathrm{L})}{(R_\mathrm{i} + R_\mathrm{L})^3}
 \end{equation}
 
-Da der Nenner in jedem Fall positiv ist, muss der Zähler null sein. Daraus folgt der Lastwiderstand $R_\mathrm{L}$ bei
-maximaler Leistung:
+Da der Nenner in jedem Fall positiv ist, muss der Zähler null sein. Daraus folgt folgende Beziehung für den
+Lastwiderstand $R_\mathrm{L}$ bei maximaler Leistung:
 \begin{align}
     (R_\mathrm{i} - R_\mathrm{L}) &= 0 \\
     R_\mathrm{i} &= R_\mathrm{L}
 \end{align}
 
-Durch Einsetzen von $R_\mathrm{i} = R_\mathrm{L}$ in die zweite Ableitung $P''(R_\mathrm{L})$ wird kontrolliert, ob es
-sich beim gefundenen Ergebnis wirklich um ein Maximum handelt. 
+Zur Klassifikation der Extremstelle wird die zweite Ableitung $P''(R_\mathrm{L})$ betrachtet.
 \begin{equation}
     P''(R_\mathrm{L}) = -\frac{2U_\mathrm{0}^2}{(R_\mathrm{i} + R_\mathrm{L})^3} < 0
 \end{equation}
-Da die zweite Ableitung $P''(L)$ bei $R_\mathrm{i} = R_\mathrm{L}$ kleiner als $0$ ist, bestätigt dies ein Maximum.
+Da die zweite Ableitung $P''(L)$ bei $R_\mathrm{i} = R_\mathrm{L}$ kleiner als $0$ ist, handelt es sich um
+ein Maximum.
 
 Durch Einsetzen von $R_\mathrm{i} = R_\mathrm{L}$ in \autoref{eq:part01-power2} lässt sich eine Formel für die
 Bestimmung der maximalen Leistung $P_\mathrm{0}$ herleiten:
@@ -94,33 +94,27 @@ Bestimmung der maximalen Leistung $P_\mathrm{0}$ herleiten:
 Setzen wir die gegebenen Werte ein, erhalten wir die folgende maximale Leistung der Spannungsquelle aus
 \autoref{fig:part01-voltage-source-schematic}:
 \begin{equation*}
-    P_\mathrm{0} = \frac{\SI{15}{\volt}^2}{4 \cdot \SI{5}{\ohm}} = \underline{\underline{\SI{11.25}{\watt}}}
+    P_\mathrm{0} = \frac{(\SI{15}{\volt})^2}{4 \cdot \SI{5}{\ohm}} = \underline{\underline{\SI{11.25}{\watt}}}
 \end{equation*}
 
 %---------------- Normierte Leistung -----------------------------------------------------------------------------------
 \subsubsection{Normierte Leistung}
 \label{subsub:part01_normed-power}
-Eine Spannungsquelle ist gegeben durch ihre maximale Leistung $P_\mathrm{0}$ und ihren Innenwiderstand $R_\mathrm{i}$.
-Aus \autoref{eq:part01-max-power} lässt sich folgende Beziehung aufstellen:
-\begin{equation}
-    U_\mathrm{0} = 2\sqrt{P_\mathrm{0}R_\mathrm{i}}
-\end{equation}
-
-Das Verhältnis zwischen aktueller Leistung $P$ und maximaler Leistung $P_\mathrm{0}$ ergibt demnach:
+Durch Kombination von \autoref{eq:part01-power2} und \autoref{eq:part01-max-power} ergibt sich folgende Beziehung für
+das Verhältnis von aktueller Leistung $P$ zur maximalen Leistung $P_\mathrm{0}$:
 \begin{align}
     \frac{P}{P_\mathrm{0}} &= \frac{U_\mathrm{0}^2\frac{R_\mathrm{L}}{(R_\mathrm{i} + R_\mathrm{L})^2}}
         {\frac{U_\mathrm{0}^2}{4R_\mathrm{i}}} \\
     \frac{P}{P_\mathrm{0}} &= \frac{4R_\mathrm{i}R_\mathrm{L}}{(R_\mathrm{i} + R_\mathrm{L})^2}
 \end{align}
 
-Durch Teilen des Nenners und des Zählers auf der rechten Seite der Gleichung durch $R_\mathrm{i}^2$ ergibt sich folgende
-Beziehung:
+Durch Teilen des Nenners und des Zählers auf der rechten Seite der Gleichung durch $R_\mathrm{i}^2$ erhalten wir:
 \begin{equation}
     \frac{P}{P_\mathrm{0}} = \frac{\frac{4R_\mathrm{L}}{R_\mathrm{i}}}
         {\left(1 + \frac{R_\mathrm{L}}{R_\mathrm{i}}\right)^2}
 \end{equation}
 
-Wenn wir jetzt $\frac{P}{P_\mathrm{0}} = p$ und $\frac{R_\mathrm{L}}{R_\mathrm{i}} = r$ setzen, erhalten wir:
+Wenn wir jetzt $\frac{P}{P_\mathrm{0}} = p$ und $\frac{R_\mathrm{L}}{R_\mathrm{i}} = r$ setzen, ergibt sich:
 \begin{equation}
     p(r) = \frac{4r}{(1 + r)^2}
 \end{equation}
@@ -128,7 +122,12 @@ Wenn wir jetzt $\frac{P}{P_\mathrm{0}} = p$ und $\frac{R_\mathrm{L}}{R_\mathrm{i
 Diese Formel gibt die normierte Leistung ($P$ im Verhältnis zu $P_\mathrm{0}$) in Bezug zum Verhältnis des
 Lastwiderstands $R_\mathrm{L}$ zum Innenwiderstand $R_\mathrm{i}$ der Spannungsquelle an. Die Normierung erleichtert die
 Analyse, da sie den Leistungsverlauf unabhängig von den konkreten Spannungs- und Widerstandswerten beschreibt. Der
-entsprechende Graph ist in \autoref{fig:part01-voltage-source-power-resistor} dargestellt.
+entsprechende Graph ist in \autoref{fig:part01-voltage-source-power-resistor} dargestellt. Die Achsen entsprechen dabei
+folgenden Beziehungen:
+\begin{align*}
+    x-Achse &= r = \frac{R_\mathrm{L}}{R_\mathrm{i}} \\
+    y-Achse &= p = \frac{P}{P_\mathrm{0}}
+\end{align*}
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{part_01/voltage-source-power-resistor.png}
@@ -137,27 +136,31 @@ entsprechende Graph ist in \autoref{fig:part01-voltage-source-power-resistor} da
 \end{figure}
 
 Der logarithmisch dargestellte Graph ist symmetrisch um $r = 1$, also $R_\mathrm{i} = R_\mathrm{L}$. Die Leistung für
-$R_\mathrm{L} = \frac{1}{2} R_\mathrm{i}$ entspricht genau der Leistung bei $R_\mathrm{L} = 2 R_\mathrm{i}$. Prozentual
-reziproke Abweichungen des Lastwiderstands $R_\mathrm{L}$ vom Innenwiderstand $R_\mathrm{i}$ nach oben und unten führen
-zu gleichen prozentualen Leistungseinbussen.
+$R_\mathrm{L} = \frac{1}{2} R_\mathrm{i}$ entspricht genau der Leistung bei $R_\mathrm{L} = 2 R_\mathrm{i}$. Reziproke
+Änderungen des Lastwiderstands $R_\mathrm{L}$ vom Innenwiderstand $R_\mathrm{i}$ nach oben und unten führen zu
+identischen relativen Leistungseinbussen.
 
 %---------------- Normierte Spannung -----------------------------------------------------------------------------------
 \subsubsection{Normierte Spannung}
 \label{subsub:part01_voltage-normed}
 Wir betrachten noch einmal \autoref{eq:part01-working-point-voltage} und teilen beide Seiten durch $U_\mathrm{0}$, sowie
-auf der rechten Seite den Nenner und den Zähler durch $R_\mathrm{i}$. Daraus folgt:
+auf der rechten Seite den Nenner und den Zähler durch $R_\mathrm{i}$. Somit folgt:
 \begin{equation}
     \frac{U}{U_\mathrm{0}} = \frac{\frac{R_\mathrm{L}}{R_\mathrm{i}}}{1 + \frac{R_\mathrm{L}}{R_\mathrm{i}}}
 \end{equation}
 
-Wenn wir jetzt $\frac{U}{U_\mathrm{0}} = u$ und erneut $\frac{R_\mathrm{L}}{R_\mathrm{i}} = r$ setzen, erhalten wir:
+Setzt man $\frac{U}{U_\mathrm{0}} = u$ und erneut $\frac{R_\mathrm{L}}{R_\mathrm{i}} = r$ setzen, erhalten wir:
 \begin{equation}
     u(r) = \frac{r}{1 + r}
 \end{equation}
 
 Wir erhalten also die normierte Spannung ($U$ im Verhältnis zu $U_\mathrm{0}$) in Bezug zum Verhältnis des
 Lastwiderstands $R_\mathrm{L}$ zum Innenwiderstand $R_\mathrm{i}$ der Spannungsquelle. Der entsprechende Graph ist in
-\autoref{fig:part01-voltage-source-voltage-resistor} dargestellt.
+\autoref{fig:part01-voltage-source-voltage-resistor} dargestellt. Die Achsen entsprechen dabei folgenden Beziehungen:
+\begin{align*}
+    x-Achse &= r = \frac{R_\mathrm{L}}{R_\mathrm{i}} \\
+    y-Achse &= u = \frac{U}{U_\mathrm{0}}
+\end{align*}
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{part_01/voltage-source-voltage-resistor.png}
@@ -165,7 +168,7 @@ Lastwiderstands $R_\mathrm{L}$ zum Innenwiderstand $R_\mathrm{i}$ der Spannungsq
     \label{fig:part01-voltage-source-voltage-resistor}
 \end{figure}
 
-Der logarithmisch dargestellte Graph ist punktsymmetrisch um $r = 1, u = 0.5$, also $R_\mathrm{i} = R_\mathrm{L}$. Die
+Der logarithmisch dargestellte Graph ist punktsymmetrisch um $(r = 1, u = 0.5)$, also $R_\mathrm{i} = R_\mathrm{L}$. Die
 Spannungsabnahme, wenn $R_\mathrm{L} = \frac{1}{2} R_\mathrm{i}$, entspricht exakt der Spannungszunahme, wenn
 $R_\mathrm{L} = 2R_\mathrm{i}$. Wird der Lastwiderstand $R_\mathrm{L}$ gegenüber dem Innenwiderstand $R_\mathrm{i}$ um
 einen Faktor vergrössert, bzw. um den reziproken Faktor verkleinert, so ändert sich die normierte Spannung um denselben

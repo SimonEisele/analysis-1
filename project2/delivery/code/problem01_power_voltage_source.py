@@ -1,0 +1,39 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+
+# Define function
+def f(x):
+    return 4 * x / np.pow(1 + x, 2)
+
+
+# Define x-Values
+xValues = np.linspace(10e-4, 1000, 1000000)
+
+# Calculate y-Values
+yValues = f(xValues)
+
+###############################################################################
+# Plot-parameters
+plt.rcParams.update({
+        "axes.labelsize": 18,      # Achsenbeschriftungen
+        "legend.fontsize": 18,     # Legende
+        "xtick.labelsize": 18,     # Tick-Beschriftungen X
+        "ytick.labelsize": 18      # Tick-Beschriftungen Y
+    })
+
+# Create plot
+plt.semilogx(xValues, yValues,
+             label=r'$p(r) = \frac{4r}{(1 + r)^2}$',
+             linewidth=0.7)
+plt.xlim(xValues.min(), xValues.max())
+plt.xlabel('r')
+plt.ylabel('p(r)')
+# plt.title('Leistung einer Spannungsquelle in Funktion des Lastwiderstands')
+plt.grid(which='major', color='gray', linestyle='-', linewidth=0.8)
+plt.grid(which='minor', color='gray', linestyle='--', linewidth=0.5)
+plt.minorticks_on()
+plt.legend()
+
+# Show plot
+plt.show()
